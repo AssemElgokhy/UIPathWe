@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X4JeKgHP7EisBjPtwYZw_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" CvElementArea="389, 406, 588, 42" CvType="InputBox" DesignTimeRectangle="389, 407, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary' aaname='Choose an Option' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="bc0113e8-57d0-41b9-8016-ed63bfb9b3e4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" CvTextArea="388, 384, 69, 18" CvTextArgument="Segment *" CvType="Text" DesignTimeRectangle="389, 382, 67, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' aaname='Segment' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segment' /&gt;" Guid="9c01d76c-0b19-4699-93d1-9de41e8190e2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b415e4932751e4dc2229ef7ee0171646.png" xmlns="">0S9kEriIPFESOpBK9GEoiQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

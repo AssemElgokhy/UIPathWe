@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ADlW6Kpo1USjMATTb8bmlQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" CvElementArea="1232, 625, 74, 43" CvTextArea="1249, 639, 40, 14" CvTextArgument="Done" CvType="Button" DesignTimeRectangle="1233, 626, 71, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Done' tag='BUTTON' type='button' /&gt;" Guid="7b9f0cc3-dc28-48cd-835a-31ab017589ea" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" CvElementArea="1136, 625, 83, 42" CvTextArea="1152, 638, 49, 15" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1137, 626, 80, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='btn btn-secondary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Cancel' /&gt;" Guid="4f5dbbd0-6646-41b3-9d94-dd9d66c1eca2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e2a84e5e45e89806ac8e3cc6f30a5bc1.png" xmlns="">00RU8F7A18EaCnySAyRk_8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

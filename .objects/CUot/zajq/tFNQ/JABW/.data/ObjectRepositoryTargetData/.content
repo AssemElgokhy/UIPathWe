@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6VTZUNOrLU6Hev6Cnxa7Cw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="52b7b86c-bce7-47cc-8d13-a2a75cdb42e8" CvTextArea="230, 353, 90, 13" CvTextArgument="Modified Date" CvType="Text" DesignTimeRectangle="187, 343, 240, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aaname='Modified Date' aria-role='menuitem' parentid='clay-dropdown-menu-2' tag='A' /&gt;" Guid="bea85715-3462-42dd-985a-4b5319cead83" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="52b7b86c-bce7-47cc-8d13-a2a75cdb42e8" CvElementArea="186, 267, 99, 35" CvType="InputBox" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Order' /&gt;" Guid="207470a5-2640-4fb8-a222-342f07c45fe5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1eb5eb146b39798ee1375bce93c0bfe6.png" xmlns="">0IiFEnWG55UijnulwcQNPfQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

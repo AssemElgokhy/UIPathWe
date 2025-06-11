@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iydtUJuSo06X3_LNisSd3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="811135b9-d702-4fd8-b81f-d6a83512ce1b" CvElementArea="899, 536, 77, 42" CvTextArea="915, 549, 45, 15" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="900, 537, 75, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' parentid='clay-id-23' tag='BUTTON' type='button' /&gt;" Guid="08275978-c498-456b-af9f-538cef3272d6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="811135b9-d702-4fd8-b81f-d6a83512ce1b" CvTextArea="392, 516, 41, 16" CvTextArgument="Image" CvType="Text" DesignTimeRectangle="393, 512, 88, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Image' parentid='clay-id-23' tag='LABEL' type='' class='ddm-label ddm-repeatable' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Image' /&gt;" Guid="d827d961-12d7-4845-a177-40072fef3003" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2f83beb3c4f301af82841be78ed07bfa.png" xmlns="">0EbV0jltEjUC-bM84Ra0N-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

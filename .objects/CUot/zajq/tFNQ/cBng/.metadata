@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Comparison Card",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "cBng1lzUhECkLiyj55L5dw",
+  "Reference": "6huVHFJPy0-LV-9hU_2J-g/cBng1lzUhECkLiyj55L5dw",
+  "ParentRef": "6huVHFJPy0-LV-9hU_2J-g/tFNQHoyo-0i1bG0YWgmISg",
+  "Created": "2025-06-10T16:19:15.8096345Z",
+  "Updated": "2025-06-10T16:19:15.8096345Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

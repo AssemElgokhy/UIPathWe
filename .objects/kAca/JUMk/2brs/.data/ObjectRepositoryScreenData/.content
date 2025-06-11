@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="rlaF0Fp8J0SRQMEP0yra7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1382, 736" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAaNJREFUOE+dk0tLw0AQx9tvo0nWJ1WUouhXEG2zqYoXBT0r6MGDDxCtyW6tttCDIILgC0VQFKU+oC0+oqh4sfbgyW9gvTgyC40mqbY48CNkdv7/zWxmPR53eGkla6GETYYIX0WobEyoEvPjmrPYFkGJNVLCTY3wz1AVh59gTiPsOiCHfU6dCFXRuzTCPpxCF4TnVZl12MQBmflwwVX8G4S/ByqNOstAI+zSVVQCjfC0EKvEaCrWcylQg1+Ou49jot8fh5WZU+iuicDmYkoUbcUyMDu4AzfJF7hOZgWbS+lvE8UYRYNlfBlqT8DJ+j301Ebg6vhZFJhnOXjMvEJs7BAWhvcF2Yc3GPDHxTpVeOLboC0Bye1H6PNFxY7d1XaD6MiBYCOagt76BZuBaAEFR2t3YJ7n4GLvCW7Pc0IwN7QrjDCPz+1YxmqBKmzME1R4838PkUp6A/4IL06Ys6AUGmEZaw7QqawpLEB4nlaE6y0DYSLrwbJMUCyxTpu4EGqFGKq7YmcicoSbVIqIvv8I8FJ5vo0qbDqk8DVEU/iUSvTWYtf5C5QzwbMLMlDBAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" Url="https://www.te.eg/wps/portal/te/Personal" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="8681067915ab80b8c663400ca0f2111d.jpg" xmlns="">0IFWQalPkgUK_c51UViqFNQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rKVBXvI8WUixqKsf_TJfiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="te.eg/wps/portal/te/Personal/Devices" DesignTimeRectangle="510, 316, 795, 973" FullSelectorArgument="&lt;webctrl class='service-desc' parentid='layoutContainers' parentname='ibmMainContainer' tag='DIV' /&gt;" Guid="dc624833-5e29-4975-a9a9-15feb77b2a8a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Routers' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="9fa0be6e4eea4fce930a0a6c949a33df.png" xmlns="">04AZUJFi_FUC0Q_KNTWnHhQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

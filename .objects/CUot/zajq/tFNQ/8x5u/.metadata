@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Click Select Icon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "8x5u-958c0ucrD3uU_Xmbw",
+  "Reference": "6huVHFJPy0-LV-9hU_2J-g/8x5u-958c0ucrD3uU_Xmbw",
+  "ParentRef": "6huVHFJPy0-LV-9hU_2J-g/tFNQHoyo-0i1bG0YWgmISg",
+  "Created": "2025-06-11T09:26:14.0973328Z",
+  "Updated": "2025-06-11T14:39:55.7932454Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

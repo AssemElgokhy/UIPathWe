@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2yEpqWI8RUqlKjV6q1hGjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="bbfaca13-4064-48e8-8990-2518d98a9dee" CvElementArea="108, 397, 107, 43" CvTextArea="123, 410, 75, 15" CvTextArgument="Select File" CvType="Button" DesignTimeRectangle="109, 398, 104, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' /&gt;" Guid="858646b6-aed4-4181-a979-c05e174368ba" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bbfaca13-4064-48e8-8990-2518d98a9dee" CvTextArea="108, 377, 72, 16" CvTextArgument="File Upload" CvType="Text" DesignTimeRectangle="109, 373, 71, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='LABEL' type='' class='control-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;File Upload &amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='File Upload' /&gt;" Guid="a78da797-3e11-4471-8a20-f109acf90805" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="553c56ee1618577d59efab208e051b61.png" xmlns="">0BhHbT28Vm0q1_LTqbG3k4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

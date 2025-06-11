@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="9xL50O4c6UCMz76B1B4N-A" Reference="6huVHFJPy0-LV-9hU_2J-g/iHTaKHjeOkOu95FwaIsfdw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="xtqBZXgJfkucyh_D9SofsA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAaNJREFUOE+dk0tLw0AQx9tvo0nWJ1WUouhXEG2zqYoXBT0r6MGDDxCtyW6tttCDIILgC0VQFKU+oC0+oqh4sfbgyW9gvTgyC40mqbY48CNkdv7/zWxmPR53eGkla6GETYYIX0WobEyoEvPjmrPYFkGJNVLCTY3wz1AVh59gTiPsOiCHfU6dCFXRuzTCPpxCF4TnVZl12MQBmflwwVX8G4S/ByqNOstAI+zSVVQCjfC0EKvEaCrWcylQg1+Ou49jot8fh5WZU+iuicDmYkoUbcUyMDu4AzfJF7hOZgWbS+lvE8UYRYNlfBlqT8DJ+j301Ebg6vhZFJhnOXjMvEJs7BAWhvcF2Yc3GPDHxTpVeOLboC0Bye1H6PNFxY7d1XaD6MiBYCOagt76BZuBaAEFR2t3YJ7n4GLvCW7Pc0IwN7QrjDCPz+1YxmqBKmzME1R4838PkUp6A/4IL06Ys6AUGmEZaw7QqawpLEB4nlaE6y0DYSLrwbJMUCyxTpu4EGqFGKq7YmcicoSbVIqIvv8I8FJ5vo0qbDqk8DVEU/iUSvTWYtf5C5QzwbMLMlDBAAAAAElFTkSuQmCC" Reference="6huVHFJPy0-LV-9hU_2J-g/iHTaKHjeOkOu95FwaIsfdw" Selector="&lt;html app='chrome.exe' title='Devices' /&gt;" Url="https://te.eg/wps/portal/te/Personal/Devices/Mobile-Phones" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="e15ad82b48c764239917511710ee66c5.jpg" xmlns="">0I4hGGzz7v0yv6XtgnWQ9VQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

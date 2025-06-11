@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aYykrmkXykSzJiKr8ANX7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="te.eg/wps/portal/te/Personal/!ut/p/z1/jZBNC4JAEIZ_jVdnWs12uy1KYVZmEdpewmBTwTR0y7-fGtShz_c2w_MyDwMCIhBFfM2SWGVlEeftvBPWfogOcXGDc2qYJgacmcuJbWMbCHvACxwy8Kfo-cxiyBeug2w9IkgJiH_6X4Cujx_Cu77okaeBtzRaA-agPbEGuBi9AK-Kv47MQCR5ebj_gxcHgyYgKnmUlaz0S9WuU6XO9VhDDZum0ZXUZaLhOzotawXRA4LzaRthtjqFtOY3sk6UGQ!!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2X0tRRDIxT0cwS09LTjMwQU05RDBDRjYxME03" DesignTimeRectangle="973, 358, 252, 30" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='menuNavigation_personalMenuDevId' tag='LI' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='All' /&gt;" Guid="e66a93fd-21b9-4acb-af0e-9ad8fdb852a9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="f3a052a62c785fc5721a99a1dd68198b.png" xmlns="">0XKpsEapxqE68jT9mJBaivw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z3E3GNLhxkOYhhwP_hf_uQ" Reference="6huVHFJPy0-LV-9hU_2J-g/UU0_icErG06GrQrvwnAXSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="te.eg/wps/portal/te/Personal/Devices" DesignTimeRectangle="618, 338, 53, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='card-table' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='STRONG' class='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f9ed8626-1f05-4d9f-9dcc-6f1d2aed016c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Routers' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="510, 291, 795, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='service-title' parentid='layoutContainers' parentname='ibmMainContainer' tag='DIV' type='' aaname='                                      Set Top Box (STB)                                                                   ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2085c603-625c-4066-929c-94f8d0bc9a5b" ImageBase64="" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6dd6597741c6f4d7c2ce07cf5b9888b3.png" xmlns="">0ExXwTEM6SkiddzjaUd9SQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

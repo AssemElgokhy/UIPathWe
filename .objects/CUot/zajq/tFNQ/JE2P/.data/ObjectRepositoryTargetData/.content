@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="y3-gBjaizkKAEZY8j1evJA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="332ab49e-8336-4424-981d-5b0275930b46" CvTextArea="416, 492, 72, 16" CvTextArgument="subGroup 1" CvType="Text" DesignTimeRectangle="389, 483, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Option99328851' tag='BUTTON' /&gt;" Guid="4765d366-e1ac-43fa-81a4-56c76915c3f1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="332ab49e-8336-4424-981d-5b0275930b46" CvElementArea="945, 596, 23, 26" CvTextArea="405, 601, 129, 19" CvTextArgument="Choose an Option" CvType="ArrowButton" DesignTimeRectangle="389, 589, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset29880906$x0klC1PF$0#Field03332201$QZ3OeEFu$0$$en_US' aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary show' aaname='Choose an Option' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="69cbf68c-771d-4f11-8a16-ef849a839b9a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="49f67c16f7a820da5afd7265ecbdacbe.png" xmlns="">0S98oT9CKXEKq9-8xPnz9yA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

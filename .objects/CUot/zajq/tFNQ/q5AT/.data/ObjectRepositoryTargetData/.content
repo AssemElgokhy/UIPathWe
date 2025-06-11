@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jdPo8JXS00eozYGHI-x5XQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="0e2fb0eb-704d-4d42-8ca4-21808ed95cca" CvElementArea="1221, 191, 75, 35" CvTextArea="1235, 202, 48, 13" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="1223, 193, 72, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_publishButton' tag='BUTTON' /&gt;" Guid="4e0fc884-1363-4f1e-907b-235a60b3ee77" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0e2fb0eb-704d-4d42-8ca4-21808ed95cca" CvElementArea="1092, 192, 111, 34" CvTextArea="1105, 202, 85, 13" CvTextArgument="Save as Draft" CvType="Button" DesignTimeRectangle="1093, 193, 109, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_saveButton' tag='BUTTON' type='submit' class='btn btn-secondary mr-3' aaname='Save as Draft' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save as Draft' /&gt;" Guid="a7deba59-8afc-4a87-afd9-3186ff7be3ef" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="985b7c222414c14349f7b4c351f921ff.png" xmlns="">0x96vINhc1kCJtyb2VRwKaQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qOdj159-5UuOcGgCq2Vx4Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="41e4e45f-e9b9-4bb1-8e48-098831373afa" CvTextArea="1099, 336, 71, 16" CvTextArgument="File Upload" CvType="Text" DesignTimeRectangle="1056, 326, 240, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aria-role='menuitem' parentid='clay-dropdown-menu-4' tag='A' /&gt;" Guid="33d014b8-10df-4fdb-a260-00dbaa87aaca" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="41e4e45f-e9b9-4bb1-8e48-098831373afa" CvElementArea="1208, 267, 82, 35" CvTextArea="1232, 278, 32, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1218, 274, 61, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='New' parentid='p_p_id_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_' tag='SPAN' type='' class='d-md-block d-none pl-3 pr-3' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="6a295e32-8fc4-4950-8510-162482598276" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1417de6a1580c7c61dfb47f6377531dc.png" xmlns="">07hu4Wwcg0Uu4AGWhwv8YQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

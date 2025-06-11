@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yTEtMK_K6Uq0pcIY09ekag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" CvTextArea="388, 475, 52, 18" CvTextArgument="Group *" CvType="Text" DesignTimeRectangle="389, 473, 50, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Group' class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' /&gt;" Guid="db644428-42f1-4b13-a16e-1a5072f155d7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" CvTextArea="376, 294, 153, 13" CvTextArgument="CARD CONFIGURATION" CvType="Text" DesignTimeRectangle="377, 290, 152, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Card Configuration' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' class='text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='CARD CONFIGURATION' /&gt;" Guid="1e97092c-2cd8-40de-be0b-6fa466badcc2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e38a7c409a95eba1690b4bfb7ebc23fd.png" xmlns="">0lZEi_-E8fkWGOZZaYG6SEw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

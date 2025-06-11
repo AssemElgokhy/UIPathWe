@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-i0Q6XWpTUWV5o43fx40Tg" Reference="6huVHFJPy0-LV-9hU_2J-g/5ZQF4YNNlEq8431ZHcR6ug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="te.eg/wps/portal/te/Personal" CVScreenId="01ad825f-e345-4bab-ba89-bd5bdaa44d7c" CvTextArea="972, 357, 102, 14" CvTextArgument="Mobile Phones" CvType="Text" DesignTimeRectangle="973, 356, 101, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mobile Phones' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="28a1bfbc-37d0-4d67-8388-d47b15ed3212" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="8f5bdf874040fe13578adb65bd71d55f.png" xmlns="">0MeVhx1ZtBEiJu72yegIimw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

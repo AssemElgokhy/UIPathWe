@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2m_eWNgYnEKISfcIpKnO1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="4e953955-80a5-4416-9151-84109a370513" CvTextArea="98, 439, 10, 8" CvTextArgument="1a" CvType="Text" DesignTimeRectangle="97, 435, 13, 16" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl parentid='_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_repositoryEntriesSearchContainer_12' tag='use' /&gt;" Guid="0fe1d9b3-70bb-4457-9989-4af08212bcad" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4e953955-80a5-4416-9151-84109a370513" CvTextArea="70, 268, 75, 12" CvTextArgument="DOCUMENTS" CvType="Text" DesignTimeRectangle="60, 259, 1248, 30" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='DT' class='card-section-header container-fluid' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Documents &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DOCUMENTS' /&gt;" Guid="5b094a9b-f1f5-4eec-9d11-6721adc11091" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6728eec8c8adcf28c396bc613689e187.png" xmlns="">0FZOA1n3qNECa7H_rnRMXCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

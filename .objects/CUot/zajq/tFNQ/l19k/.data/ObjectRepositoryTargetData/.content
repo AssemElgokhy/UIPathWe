@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sweU6Tw0RUiCSurkR8yFxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="ec37bb5e-6773-41b7-bf55-8f1d0e0cd98d" CvTextArea="71, 375, 74, 12" CvTextArgument="DOCUMENTS" CvType="Text" DesignTimeRectangle="60, 435, 1248, 30" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='DT' class='card-section-header container-fluid' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Documents &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DOCUMENTS' /&gt;" Guid="d84ad64e-81c3-45e4-aa67-f7f722a8a357" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="cc33399a901e316533b9cdeaffa8f507.png" xmlns="">0cEd3q7HhfkaaVKZHCJ9wbQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D35WHbjXF0WzhSC6Fff1bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="0473e59c-2a4b-4e4b-9085-dd08c2da7c7d" CvElementArea="94, 477, 20, 21" CvType="Icon" DesignTimeRectangle="97, 480, 13, 16" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl parentid='_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_repositoryEntriesSearchContainer_12' tag='use' /&gt;" Guid="826ce95f-06ef-4cff-a772-a4928c7159ed" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhPtdQ7EkAwFAVQOzWjUaVWptQqdFmEFah02YAN6IwFqK554xPJ84ngztwZIe80QYQPElmrcQTa9roHMUjXAVkGxPF1tbYAikGqig+c1YHCEAcKR3bQO4Rm/kfoOPOcD75ClApAqGVprvseEOIhIuV8n6BlM+r6AZKmwDBsj6wUhSfifi9uk8QD8e0/SNPwTXelGfY/IZneDZ+uJ8aQwHyCTGk5a7Msi5HsAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0473e59c-2a4b-4e4b-9085-dd08c2da7c7d" CvTextArea="71, 313, 74, 12" CvTextArgument="DOCUMENTS" CvType="Text" DesignTimeRectangle="60, 304, 1248, 30" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='DT' class='card-section-header container-fluid' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Documents &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DOCUMENTS' /&gt;" Guid="975df804-f5ac-41dc-aabb-c9ad9296ed4c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dd557c114a0d2e4721035355fc4d0757.png" xmlns="">00EpqZ_8Q7UCgEALbV0TutA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

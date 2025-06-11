@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MuBl-tdxvUSy0-LcLi1MrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="72ec104e-2819-42b4-b68f-7b8317304603" CvElementArea="1254, 557, 66, 34" CvTextArea="1267, 567, 40, 13" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1255, 558, 64, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='Select Tags' tag='BUTTON' type='button' /&gt;" Guid="cd8f9fc1-3c3b-41ea-9457-95302bd6eedd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="72ec104e-2819-42b4-b68f-7b8317304603" CvTextArea="1063, 537, 31, 16" CvTextArgument="Tags" CvType="Text" DesignTimeRectangle="1065, 533, 28, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='_com_liferay_journal_web_portlet_JournalPortlet_zomp___assetTagsSelector' tag='LABEL' type='' class='' aaname='Tags' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tags' /&gt;" Guid="11b45d46-0f49-436f-aed9-c1121fe74bf5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="082a285f35753dab8b081ca8d0fc326c.png" xmlns="">0BPlc1kJSNEW4-qfJKtz2qA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

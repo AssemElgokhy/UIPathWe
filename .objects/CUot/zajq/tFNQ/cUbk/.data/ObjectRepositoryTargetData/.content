@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ItXEf64F-kaj15MuVo3GcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" DesignTimeRectangle="433, 468, 16, 16" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl parentid='clay-id-31' tag='INPUT' type='radio' class='custom-control-input' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="168a0d50-d6f4-4683-a03c-182fd70e3f13" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" CvElementArea="431, 466, 20, 20" CvTextArea="456, 469, 108, 16" CvTextArgument="Manufactured by" CvType="RadioButton" DesignTimeRectangle="433, 466, 129, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='clay-id-31' tag='LABEL' class='' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Manufactured by' /&gt;" Guid="5fe05859-659d-4a01-abf4-2ea5d031d5c1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="50f05b3db611c1d4a11d7781978fbc52.png" xmlns="">0dVQ05_H0-E6oxykVp-spIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

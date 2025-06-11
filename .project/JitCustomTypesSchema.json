@@ -1,0 +1,36 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "0656259478",
+        "bundleName": "fd0656259478",
+        "entitiesBundle": {
+          "Types": {
+            "FormData": {
+              "name": "FormData",
+              "properties": [
+                {
+                  "name": "Search",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.UIAutomationNext.Activities.Design.SWEntities.fd0656259478",
+        "hash": "MDY1NjI1OTQ3OA",
+        "assemblyName": "fd0656259478.KMxWq3DXeqC1a3qQj1UhMDW2"
+      }
+    }
+  ]
+}

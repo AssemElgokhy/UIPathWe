@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_P4UQ_uzBkK0EliEHPlJ7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="c27d4e51-f0bc-44a6-89c1-8cca67f64f16" CvTextArea="410, 200, 222, 17" CvTextArgument="Untitled Comparison Card" CvType="Text" DesignTimeRectangle="394, 189, 591, 40" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_titleMapAsXML' tag='INPUT' /&gt;" Guid="3abe0810-9334-40b9-818e-9b4c373d1d18" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c27d4e51-f0bc-44a6-89c1-8cca67f64f16" CvTextArea="423, 140, 135, 14" CvTextArgument="New Web Content" CvType="Text" DesignTimeRectangle="424, 137, 133, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='control-menu-level-1-heading mb-0 text-truncate' aaname='New Web Content' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New Web Content' /&gt;" Guid="1e9c11fb-dd1b-45bf-bca7-8af89fc14421" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="43946fa4c96b9fc627047f4fe99dff8c.png" xmlns="">0iBt-OzNM4kGuRUSmX4r74Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qNSzPBdbCkibHNAcbE9FIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="te.eg/wps/portal/te/Personal" DesignTimeRectangle="918, 174, 102, 49" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Devices' class='nav__list__link' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="a648871b-a872-4674-9b72-d8bd5f1768be" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="0e07efef6e21f8856aaabf667affb542.png" xmlns="">0jlcuopS5QkGx4C2QBcYbdg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

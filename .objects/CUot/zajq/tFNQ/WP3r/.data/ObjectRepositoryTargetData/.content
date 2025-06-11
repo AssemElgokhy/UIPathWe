@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C2MqkLyksUiF_zGgosLidQ" Reference="6huVHFJPy0-LV-9hU_2J-g/WP3rMa1lAkijo0s4UqpqVQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="46f0f262-cfb4-48bb-9aea-7642aac86674" CvTextArea="230, 466, 74, 16" CvTextArgument="Descending" CvType="Text" DesignTimeRectangle="187, 456, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aria-role='menuitem' tag='BUTTON' /&gt;" Guid="d41c48e3-b685-48f1-b125-2d88cc43a8c8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="46f0f262-cfb4-48bb-9aea-7642aac86674" CvElementArea="186, 267, 99, 35" CvType="InputBox" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Order' /&gt;" Guid="99c4d0eb-55c8-4920-9b0c-14ec7264cd13" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="861e102c917bbb8210b8fc4a36854de9.png" xmlns="">0FubVEfl0Z0CtgUhFP_yAtQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

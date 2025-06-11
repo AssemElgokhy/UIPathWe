@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="b1lDu-0ZcU--bxEoIP3sMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="74897533-cdff-4b38-99e2-51f4fa2a00e9" CvElementArea="887, 386, 77, 42" CvTextArea="903, 399, 45, 15" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="888, 387, 75, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='clay-id-31' tag='BUTTON' type='button' /&gt;" Guid="9b181b1c-0bef-4cd7-a898-c7b62aae6252" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="74897533-cdff-4b38-99e2-51f4fa2a00e9" CvTextArea="404, 295, 108, 13" CvTextArgument="PRODUCT SPECS" CvType="Text" DesignTimeRectangle="405, 294, 107, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Product specs' parentid='clay-id-29' tag='LABEL' type='' class='text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='PRODUCT SPECS' /&gt;" Guid="c3118a2c-9bb6-4aae-9192-51ef818377a8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1cf0887c4c6935c08e078531eecd86fe.png" xmlns="">05xN7gTd1IEm73IsTa5UjWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

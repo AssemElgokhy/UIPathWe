@@ -1,0 +1,270 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SequenceDevices1" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="1000,3001" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="specDetails" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="SequenceDevices" sap:VirtualizedContainerService.HintSize="572,2978" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard CloseMode="Never" DisplayName="Browser(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="538,754" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="3f430629-6149-4c08-87a7-758c0a050281" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence sap:VirtualizedContainerService.HintSize="450,505" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NHover DisplayName="Hover 'Devices(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="3f430629-6149-4c08-87a7-758c0a050281" Version="V4">
+                <uix:NHover.Target>
+                  <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal" ContentHash="qNSzPBdbCkibHNAcbE9FIA" DesignTimeRectangle="918, 174, 102, 49" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Devices' class='nav__list__link' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="a648871b-a872-4674-9b72-d8bd5f1768be" InformativeScreenshot="0e07efef6e21f8856aaabf667affb542.png" Reference="6huVHFJPy0-LV-9hU_2J-g/jPd_WG3bZ0qKVW7vgoFECA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NHover.Target>
+                <uix:NHover.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NHover.VerifyOptions>
+              </uix:NHover>
+              <uix:NClick ActivateBefore="True" ClickType="Double" CursorMotionType="Smooth" DelayBefore="2" DisplayName="All Devices" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f430629-6149-4c08-87a7-758c0a050281" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal" CVScreenId="6dc07b61-8ef5-469b-8510-a5f0ff1c68f7" ContentHash="yhMiSWPXG0GCkMzl5Vs30g" CvTextArea="972, 357, 102, 14" CvTextArgument="Mobile Phones" CvType="Text" DesignTimeRectangle="973, 356, 101, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mobile Phones' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="5d9ba8df-e1df-4f70-9303-57c6e3bdfb70" InformativeScreenshot="c031e29dfb424598a5607cb320276fda.png" Reference="6huVHFJPy0-LV-9hU_2J-g/EtlCJEbFgUOYGgOj5qnlCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Label 'Label 'All''" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal" CVScreenId="01ad825f-e345-4bab-ba89-bd5bdaa44d7c" ContentHash="-i0Q6XWpTUWV5o43fx40Tg" CvTextArea="972, 357, 102, 14" CvTextArgument="Mobile Phones" CvType="Text" DesignTimeRectangle="973, 356, 101, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mobile Phones' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="28a1bfbc-37d0-4d67-8388-d47b15ed3212" InformativeScreenshot="8f5bdf874040fe13578adb65bd71d55f.png" Reference="6huVHFJPy0-LV-9hU_2J-g/5ZQF4YNNlEq8431ZHcR6ug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="rlaF0Fp8J0SRQMEP0yra7w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAaNJREFUOE+dk0tLw0AQx9tvo0nWJ1WUouhXEG2zqYoXBT0r6MGDDxCtyW6tttCDIILgC0VQFKU+oC0+oqh4sfbgyW9gvTgyC40mqbY48CNkdv7/zWxmPR53eGkla6GETYYIX0WobEyoEvPjmrPYFkGJNVLCTY3wz1AVh59gTiPsOiCHfU6dCFXRuzTCPpxCF4TnVZl12MQBmflwwVX8G4S/ByqNOstAI+zSVVQCjfC0EKvEaCrWcylQg1+Ou49jot8fh5WZU+iuicDmYkoUbcUyMDu4AzfJF7hOZgWbS+lvE8UYRYNlfBlqT8DJ+j301Ebg6vhZFJhnOXjMvEJs7BAWhvcF2Yc3GPDHxTpVeOLboC0Bye1H6PNFxY7d1XaD6MiBYCOagt76BZuBaAEFR2t3YJ7n4GLvCW7Pc0IwN7QrjDCPz+1YxmqBKmzME1R4838PkUp6A/4IL06Ys6AUGmEZaw7QqawpLEB4nlaE6y0DYSLrwbJMUCyxTpu4EGqFGKq7YmcicoSbVIqIvv8I8FJ5vo0qbDqk8DVEU/iUSvTWYtf5C5QzwbMLMlDBAAAAAElFTkSuQmCC" InformativeScreenshot="8681067915ab80b8c663400ca0f2111d.jpg" Reference="6huVHFJPy0-LV-9hU_2J-g/2brs6oAhxkeoR-GYio17VQ" Selector="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" Url="https://www.te.eg/wps/portal/te/Personal" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Devices" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="538,2141" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="21d19562-06d6-4965-8368-bb3a1808faf0" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="504,1901" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="OutArgument" Name="ExtractedData" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Device Title'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Device Price'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Device Manufacturer'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column3' Name='Device Url'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column5' Name='Device Image Src'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='p' idx='2' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='href'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='src'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,189" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="21d19562-06d6-4965-8368-bb3a1808faf0" Version="V4">
+                <uix:NExtractData.Target>
+                  <uix:TargetAnchorable BrowserURL="https://te.eg/wps/portal/te/Personal/Devices" DesignTimeRectangle="93, 290, 1182, 7515" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='pro-cover' parentid='layoutContainers' parentname='ibmMainContainer' tag='DIV' /&gt;" Guid="035731ad-f662-4441-a6c2-7b3429a8e158" InformativeScreenshot="cb066386aba1c86bf2660be7ab371900.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Devices' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" />
+                </uix:NExtractData.Target>
+              </uix:NExtractData>
+              <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Specifications" DataTable="[ExtractDataTable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="470,218" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
+              <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="DeviceDetails" DataTable="[ExtractDataTable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="470,218" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractDataTable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="470,1073" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow.Body>
+                  <ActivityAction x:TypeArguments="sd:DataRow">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,893" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="specText" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="[CurrentRow(3).ToString()]" Version="V4" />
+                      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NGetText DisplayName="Get Text '.w-70{width70%;}th { b…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="21d19562-06d6-4965-8368-bb3a1808faf0" TextString="[specText]" Version="V4">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal/Devices" ContentHash="rKVBXvI8WUixqKsf_TJfiw" DesignTimeRectangle="510, 316, 795, 973" FullSelectorArgument="&lt;webctrl class='service-desc' parentid='layoutContainers' parentname='ibmMainContainer' tag='DIV' /&gt;" Guid="dc624833-5e29-4975-a9a9-15feb77b2a8a" InformativeScreenshot="9fa0be6e4eea4fce930a0a6c949a33df.png" Reference="6huVHFJPy0-LV-9hU_2J-g/wzNdubU2XUCcj2V44-O4xQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Routers' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Object">[CurrentRow(5)]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Object">[specText]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Set Top Box (STB)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="21d19562-06d6-4965-8368-bb3a1808faf0" TextString="[specDetails]" Timeout="1" Version="V4">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal/Devices" ContentHash="Z3E3GNLhxkOYhhwP_hf_uQ" DesignTimeRectangle="618, 338, 53, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='card-table' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='STRONG' class='' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="f9ed8626-1f05-4d9f-9dcc-6f1d2aed016c" InformativeScreenshot="6dd6597741c6f4d7c2ce07cf5b9888b3.png" Reference="6huVHFJPy0-LV-9hU_2J-g/UU0_icErG06GrQrvwnAXSQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Routers' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="510, 291, 795, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='service-title' parentid='layoutContainers' parentname='ibmMainContainer' tag='DIV' type='' aaname='                                      Set Top Box (STB)                                                                   ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:parentname='fuzzy' fuzzylevel:parentname='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2085c603-625c-4066-929c-94f8d0bc9a5b" ImageBase64="" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_4">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Object">[CurrentRow(6)]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Object">[specDetails]</InArgument>
+                        </Assign.Value>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Assign>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachRow.Body>
+              </ui:ForEachRow>
+              <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="470,141" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="We-DevicesSpec4" WorkbookPath="D:\UIPath\WeDevices.xlsx" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="9xL50O4c6UCMz76B1B4N-A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAaNJREFUOE+dk0tLw0AQx9tvo0nWJ1WUouhXEG2zqYoXBT0r6MGDDxCtyW6tttCDIILgC0VQFKU+oC0+oqh4sfbgyW9gvTgyC40mqbY48CNkdv7/zWxmPR53eGkla6GETYYIX0WobEyoEvPjmrPYFkGJNVLCTY3wz1AVh59gTiPsOiCHfU6dCFXRuzTCPpxCF4TnVZl12MQBmflwwVX8G4S/ByqNOstAI+zSVVQCjfC0EKvEaCrWcylQg1+Ou49jot8fh5WZU+iuicDmYkoUbcUyMDu4AzfJF7hOZgWbS+lvE8UYRYNlfBlqT8DJ+j301Ebg6vhZFJhnOXjMvEJs7BAWhvcF2Yc3GPDHxTpVeOLboC0Bye1H6PNFxY7d1XaD6MiBYCOagt76BZuBaAEFR2t3YJ7n4GLvCW7Pc0IwN7QrjDCPz+1YxmqBKmzME1R4838PkUp6A/4IL06Ys6AUGmEZaw7QqawpLEB4nlaE6y0DYSLrwbJMUCyxTpu4EGqFGKq7YmcicoSbVIqIvv8I8FJ5vo0qbDqk8DVEU/iUSvTWYtf5C5QzwbMLMlDBAAAAAElFTkSuQmCC" InformativeScreenshot="e15ad82b48c764239917511710ee66c5.jpg" Reference="6huVHFJPy0-LV-9hU_2J-g/iHTaKHjeOkOu95FwaIsfdw" Selector="&lt;html app='chrome.exe' title='Devices' /&gt;" Url="https://te.eg/wps/portal/te/Personal/Devices/Mobile-Phones" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

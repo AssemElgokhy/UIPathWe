@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ERQbtWXY4kC_ViFlZECs7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="6ef4aa14-69bd-470d-adf9-a6848695192e" CvElementArea="400, 628, 577, 43" CvType="InputBox" DesignTimeRectangle="401, 630, 577, 40" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset53350540$tk3DOFNx$0#Fieldset18137327$kSmHqfjW$0#Text18399877$BtDF16j1$0$$en_US' tag='INPUT' type='text' class='form-control ddm-field-text' aaname='Title 1' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ccda648d-db7f-4005-a277-dd7e31292469" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6ef4aa14-69bd-470d-adf9-a6848695192e" CvTextArea="399, 609, 39, 13" CvTextArgument="Title 1" CvType="Text" DesignTimeRectangle="401, 605, 37, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='clay-id-24' tag='LABEL' type='' class='ddm-label' aaname='Title 1' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Title 1' /&gt;" Guid="37274bea-050c-4b97-ad77-08a3f3b61549" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6346831b6515dd6da6ad739f450e44d.png" xmlns="">0fP3h9mlM0karFShGFeyTkA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

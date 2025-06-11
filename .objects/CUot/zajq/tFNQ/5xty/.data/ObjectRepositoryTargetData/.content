@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bx2jr5mc6k-P0sSLFe83Mg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="241121df-eaf9-497b-a9ac-d806a4b3dcfe" CvTextArea="1063, 409, 31, 16" CvTextArgument="Tags" CvType="Text" DesignTimeRectangle="1065, 405, 28, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='_com_liferay_journal_web_portlet_JournalPortlet_zomp___assetTagsSelector' tag='LABEL' /&gt;" Guid="effdd3e0-c9f4-4f28-9834-a86fe5ee82d4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="241121df-eaf9-497b-a9ac-d806a4b3dcfe" CvTextArea="1064, 383, 103, 12" CvTextArgument="OTHER METADATA" CvType="Text" DesignTimeRectangle="1065, 374, 254, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Other Metadata' parentid='_com_liferay_journal_web_portlet_JournalPortlet_zomp___assetTagsSelector' tag='DIV' type='' class='border-0 mb-0 sheet-subtitle text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='OTHER METADATA' /&gt;" Guid="d9dc3a83-5abb-4727-8d9b-d3f5310873e8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a632d0c7f516fcdcad66bdfbb26c022a.png" xmlns="">07qOqFj4bT0GeJjsKdRG_Yg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

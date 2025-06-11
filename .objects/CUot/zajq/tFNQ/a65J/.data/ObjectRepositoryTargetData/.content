@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LZkn_s3WcUG2sLw53rZOKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/search" CVScreenId="51a4e4b3-984d-4e2c-925e-e4895de65f98" CvTextArea="433, 437, 96, 13" CvTextArgument="Mobile Phones" CvType="Text" DesignTimeRectangle="434, 433, 95, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='_com_liferay_journal_web_portlet_JournalPortlet_articles_3' tag='A' /&gt;" Guid="964efb95-7bc5-455d-8b2c-ae4a8e003e9a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="51a4e4b3-984d-4e2c-925e-e4895de65f98" CvTextArea="400, 213, 49, 13" CvTextArgument="Devices" CvType="Text" DesignTimeRectangle="401, 209, 48, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Devices' class='breadcrumb-text-truncate' parentid='_com_liferay_journal_web_portlet_JournalPortlet_infoPanelId' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Devices' /&gt;" Guid="954c45bd-0af5-4d55-86b6-ebbd4c46b6b9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2282c5f3ff6f0892e7858da0b852c02a.png" xmlns="">0GI1cRIMh7UC5nK5QOg20dQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

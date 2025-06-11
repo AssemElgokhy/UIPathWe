@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DTk0A4D8-kyY-JnHHo29qg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="cf1ae296-651d-4a88-baba-dcab0a7ee4c2" CvElementArea="1208, 267, 82, 35" CvTextArea="1233, 278, 31, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1209, 269, 79, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aria-label='New' class='dropdown-toggle nav-btn d-md-flex d-none btn btn-primary' tag='BUTTON' type='button' aaname='New' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New' /&gt;" Guid="35838f37-b528-4ca6-81a9-ebe5d8b06303" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cf1ae296-651d-4a88-baba-dcab0a7ee4c2" CvElementArea="1208, 267, 82, 35" CvTextArea="1233, 278, 31, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1218, 274, 61, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='New' parentid='p_p_id_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_' tag='SPAN' type='' class='d-md-block d-none pl-3 pr-3' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="7d896cd5-0701-463d-9673-7ec1f77c992c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8897ac6b62acdf0c70b8794d5f776dbb.png" xmlns="">08NqGsstaYk6-zx92-bhsjQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

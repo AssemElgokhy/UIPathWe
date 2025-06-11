@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Kf4N1YQH0k-xqryGNsIFNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="781a8819-1467-4c7e-879c-eba62c44d669" CvTextArea="392, 516, 41, 16" CvTextArgument="Image" CvType="Text" DesignTimeRectangle="393, 512, 88, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Image' parentid='clay-id-23' tag='LABEL' /&gt;" Guid="e2d573de-21bc-4ba8-9b1f-ddbebcdb94b4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d922df960e5bdde05db260b5c63d3170.png" xmlns="">06h8lHC9Za0a52bb7Wvp23g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

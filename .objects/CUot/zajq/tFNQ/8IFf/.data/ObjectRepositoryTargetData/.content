@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IfAUK4Ze2Ei0BIZ3oWNFVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" CvTextArea="415, 441, 60, 13" CvTextArgument="Attribute" CvType="Text" DesignTimeRectangle="417, 437, 57, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset95726561$0kevUdu0$0#Fieldset13618790$J3HeuuQh$0#Radio80246063$nbcGApr1$0$$en_US_fieldDetails' tag='LABEL' /&gt;" Guid="626ab505-aaac-4151-9db9-b8f320c66c44" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" CvTextArea="404, 295, 108, 13" CvTextArgument="PRODUCT SPECS" CvType="Text" DesignTimeRectangle="405, 294, 107, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Product specs' parentid='clay-id-29' tag='LABEL' type='' class='text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='PRODUCT SPECS' /&gt;" Guid="50241c00-99dd-4346-81b5-c6a8f11424ba" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6f216f440eadda334a6706af680934f8.png" xmlns="">0PQl6G7EiVUmNQX3X91CrpA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

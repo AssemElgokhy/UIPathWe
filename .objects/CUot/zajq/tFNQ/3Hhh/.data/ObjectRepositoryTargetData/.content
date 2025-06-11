@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZZ-Yl5WuVkOo2tjqnoOTCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="91cd5cce-9368-4726-a660-d07f49e23ddb" CvElementArea="107, 506, 87, 43" CvTextArea="123, 520, 55, 15" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="125, 517, 52, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl parentid='_com_liferay_document_library_web_portlet_DLAdminPortlet_publishButton' tag='SPAN' type='' class='lfr-btn-label' aaname='Publish' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Publish' /&gt;" Guid="1c9b390d-529c-4a74-a18a-766d8769a008" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="91cd5cce-9368-4726-a660-d07f49e23ddb" CvElementArea="107, 506, 87, 43" CvTextArea="123, 520, 55, 15" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="109, 508, 84, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='_com_liferay_document_library_web_portlet_DLAdminPortlet_publishButton' tag='BUTTON' type='submit' class='btn  btn-primary' aaname=' &amp;#x9;      &amp;#x9;Publish      &amp;#x9; &amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Publish' /&gt;" Guid="b48c313a-850b-4c86-b8f5-c1adc243e3ad" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="071d3de3495cc66321d7c5c9cd4df020.png" xmlns="">08-QSN5Ao5k-nOpi0NRr7Jw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

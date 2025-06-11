@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0iqKmtQkLkmHX8eS5r61mQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="820345d6-7a49-4e24-b9a9-d1b1b2a11b82" CvElementArea="146, 216, 1137, 42" CvType="InputBox" DesignTimeRectangle="148, 217, 1087, 40" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='search' /&gt;" Guid="823fe1d9-d0d4-4e03-b92a-87adf849a516" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="820345d6-7a49-4e24-b9a9-d1b1b2a11b82" CvTextArea="76, 165, 45, 22" CvTextArgument="Tags" CvType="Text" DesignTimeRectangle="78, 158, 1189, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='clay-modal-label-3' tag='H1' type='' class='modal-title' aaname='Tags' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tags' /&gt;" Guid="c4d571d5-5155-48af-9c6f-d84de08b4061" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4ef14e2bbbc2c6b649b75d4d54bed852.png" xmlns="">0S22Un19gqEWQXWbYFUgTqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D2FkNEYH20mtYSULgUfaiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" CvElementArea="98, 473, 20, 19" CvType="CheckBox" DesignTimeRectangle="100, 474, 16, 16" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='custom-control-input ' aaname='Select' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="57cae2fe-2aea-4c63-82ac-41832f4362bb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" CvTextArea="77, 344, 131, 17" CvTextArgument="Search Results" CvType="Text" DesignTimeRectangle="79, 341, 1224, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='H3' type='' class='' aaname='Search Results' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Search Results' /&gt;" Guid="2b2ed648-bc2f-46d2-9f48-87cebc127d9f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="104bb74cf9ebf2bdedf98e4d0920f015.png" xmlns="">04acts_4n3kSoRmNv4XsTXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

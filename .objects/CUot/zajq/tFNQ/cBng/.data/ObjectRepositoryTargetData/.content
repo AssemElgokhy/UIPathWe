@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uJcjf5EFZ0unOVBeViLB2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/search" CVScreenId="bab339ce-8f77-443b-8b8f-1aecaabf4e73" CvTextArea="1102, 378, 108, 16" CvTextArgument="Comparison Card" CvType="Text" DesignTimeRectangle="1059, 368, 225, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Comparison Card' aria-role='menuitem' parentid='clay-dropdown-menu-6' tag='A' /&gt;" Guid="d168285e-caa4-4e5b-91cd-ae2ce08366f6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bab339ce-8f77-443b-8b8f-1aecaabf4e73" CvTextArea="1102, 347, 61, 12" CvTextArgument="FAVORITES" CvType="Text" DesignTimeRectangle="1059, 338, 225, 30" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl id='clay-dropdown-menu-group-4' tag='LI' type='' class='dropdown-subheader' aaname='Favorites' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='FAVORITES' /&gt;" Guid="66573910-c2fb-4b1b-938a-0d41be8bd4a7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="afb0e406e6ca66595f6186a5150e8883.png" xmlns="">000ZCHrXEnEiyFOQAWnqSyQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

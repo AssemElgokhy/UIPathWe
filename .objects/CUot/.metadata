@@ -1,0 +1,12 @@
+﻿{
+  "Name": "We Portal",
+  "Type": "App",
+  "Id": "CUotqCHsI0CzJnjIro0ZZA",
+  "Reference": "6huVHFJPy0-LV-9hU_2J-g/CUotqCHsI0CzJnjIro0ZZA",
+  "Created": "2025-06-10T16:10:25.3405733Z",
+  "Updated": "2025-06-10T16:10:25.3405733Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

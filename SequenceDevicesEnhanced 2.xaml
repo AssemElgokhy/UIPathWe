@@ -1,0 +1,1312 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SequenceDevicesEnhanced_2" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="SequenceDevicesEnhanced_2_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="SequenceDevicesEnhanced_2" sap:VirtualizedContainerService.HintSize="1000,16007" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="WebContentDevicesURL">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">http://10.0.20.90:9900/group/guest/~/control_panel/manage?p_p_id=com_liferay_journal_web_portlet_JournalPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_com_liferay_journal_web_portlet_JournalPortlet_displayStyle=descriptive&amp;_com_liferay_journal_web_portlet_JournalPortlet_folderId=65080&amp;_com_liferay_journal_web_portlet_JournalPortlet_groupId=20117&amp;p_p_auth=55Cpyb7Q</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="loginURL">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">http://10.0.20.90:9900/search?p_p_id=com_liferay_login_web_portlet_LoginPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;_com_liferay_login_web_portlet_LoginPortlet_mvcRenderCommandName=%2Flogin%2Flogin&amp;saveLastPath=false</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="SequenceDevicesEnhanced" sap:VirtualizedContainerService.HintSize="692,15984" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard CloseMode="Never" DisplayName="Browser(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="658,754" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="3f430629-6149-4c08-87a7-758c0a050281" WindowResize="Maximize">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence sap:VirtualizedContainerService.HintSize="450,505" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NHover DisplayName="Hover 'Devices(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="3f430629-6149-4c08-87a7-758c0a050281" Version="V4">
+                <uix:NHover.Target>
+                  <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal" ContentHash="qNSzPBdbCkibHNAcbE9FIA" DesignTimeRectangle="918, 174, 102, 49" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Devices' class='nav__list__link' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="a648871b-a872-4674-9b72-d8bd5f1768be" InformativeScreenshot="0e07efef6e21f8856aaabf667affb542.png" Reference="6huVHFJPy0-LV-9hU_2J-g/jPd_WG3bZ0qKVW7vgoFECA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NHover.Target>
+                <uix:NHover.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NHover.VerifyOptions>
+              </uix:NHover>
+              <uix:NClick ActivateBefore="True" ClickType="Double" CursorMotionType="Smooth" DelayBefore="2" DisplayName="Mobile Phones" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f430629-6149-4c08-87a7-758c0a050281" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal" CVScreenId="6dc07b61-8ef5-469b-8510-a5f0ff1c68f7" ContentHash="yhMiSWPXG0GCkMzl5Vs30g" CvTextArea="972, 357, 102, 14" CvTextArgument="Mobile Phones" CvType="Text" DesignTimeRectangle="973, 356, 101, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mobile Phones' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="5d9ba8df-e1df-4f70-9303-57c6e3bdfb70" InformativeScreenshot="c031e29dfb424598a5607cb320276fda.png" Reference="6huVHFJPy0-LV-9hU_2J-g/EtlCJEbFgUOYGgOj5qnlCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="Label 'Label 'All''" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Target>
+                      <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal" CVScreenId="01ad825f-e345-4bab-ba89-bd5bdaa44d7c" ContentHash="-i0Q6XWpTUWV5o43fx40Tg" CvTextArea="972, 357, 102, 14" CvTextArgument="Mobile Phones" CvType="Text" DesignTimeRectangle="973, 356, 101, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mobile Phones' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="28a1bfbc-37d0-4d67-8388-d47b15ed3212" InformativeScreenshot="8f5bdf874040fe13578adb65bd71d55f.png" Reference="6huVHFJPy0-LV-9hU_2J-g/5ZQF4YNNlEq8431ZHcR6ug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                    </uix:VerifyExecutionOptions.Target>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="rlaF0Fp8J0SRQMEP0yra7w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAaNJREFUOE+dk0tLw0AQx9tvo0nWJ1WUouhXEG2zqYoXBT0r6MGDDxCtyW6tttCDIILgC0VQFKU+oC0+oqh4sfbgyW9gvTgyC40mqbY48CNkdv7/zWxmPR53eGkla6GETYYIX0WobEyoEvPjmrPYFkGJNVLCTY3wz1AVh59gTiPsOiCHfU6dCFXRuzTCPpxCF4TnVZl12MQBmflwwVX8G4S/ByqNOstAI+zSVVQCjfC0EKvEaCrWcylQg1+Ou49jot8fh5WZU+iuicDmYkoUbcUyMDu4AzfJF7hOZgWbS+lvE8UYRYNlfBlqT8DJ+j301Ebg6vhZFJhnOXjMvEJs7BAWhvcF2Yc3GPDHxTpVeOLboC0Bye1H6PNFxY7d1XaD6MiBYCOagt76BZuBaAEFR2t3YJ7n4GLvCW7Pc0IwN7QrjDCPz+1YxmqBKmzME1R4838PkUp6A/4IL06Ys6AUGmEZaw7QqawpLEB4nlaE6y0DYSLrwbJMUCyxTpu4EGqFGKq7YmcicoSbVIqIvv8I8FJ5vo0qbDqk8DVEU/iUSvTWYtf5C5QzwbMLMlDBAAAAAElFTkSuQmCC" InformativeScreenshot="8681067915ab80b8c663400ca0f2111d.jpg" Reference="6huVHFJPy0-LV-9hU_2J-g/2brs6oAhxkeoR-GYio17VQ" Selector="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" Url="https://www.te.eg/wps/portal/te/Personal" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Devices" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="658,15147" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="21d19562-06d6-4965-8368-bb3a1808faf0" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="624,14907" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="OutArgument" Name="ExtractedData" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Device Title'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Device Price'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Device Manufacture'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column3' Name='Device Details'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column4' Name='Device Image'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='p' idx='2' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='href'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='src'&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='img' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="590,189" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="21d19562-06d6-4965-8368-bb3a1808faf0" Version="V4">
+                <uix:NExtractData.Target>
+                  <uix:TargetAnchorable BrowserURL="https://te.eg/wps/portal/te/Personal/Devices" ContentHash="k0OLRggmyk2OzGPY7gQ9Mg" DesignTimeRectangle="93, 219, 1182, 7575" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='pro-cover' parentid='layoutContainers' parentname='ibmMainContainer' tag='DIV' /&gt;" Guid="41d241f5-47f2-4b47-9fff-2272844dcf7d" InformativeScreenshot="74456c0769909ed2c31d56e9146983b3.png" Reference="6huVHFJPy0-LV-9hU_2J-g/cnfnePRO9kCJcPZvYUUy2Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Devices' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" />
+                </uix:NExtractData.Target>
+              </uix:NExtractData>
+              <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="Specifications" DataTable="[ExtractDataTable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="590,218" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
+              <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="DeviceDetails" DataTable="[ExtractDataTable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="590,218" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" />
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractDataTable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="590,14079" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow.Body>
+                  <ActivityAction x:TypeArguments="sd:DataRow">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="588,13899" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="specText" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NGoToUrl DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="554,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[CurrentRow(3).ToString()]" Version="V4" />
+                      <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="554,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NGetText DisplayName="Get Text '.w-70{width70%;}th { b…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="554,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="21d19562-06d6-4965-8368-bb3a1808faf0" TextString="[specText]" Version="V4">
+                        <uix:NGetText.Target>
+                          <uix:TargetAnchorable BrowserURL="te.eg/wps/portal/te/Personal/Devices" ContentHash="rKVBXvI8WUixqKsf_TJfiw" DesignTimeRectangle="510, 316, 795, 973" FullSelectorArgument="&lt;webctrl class='service-desc' parentid='layoutContainers' parentname='ibmMainContainer' tag='DIV' /&gt;" Guid="dc624833-5e29-4975-a9a9-15feb77b2a8a" InformativeScreenshot="9fa0be6e4eea4fce930a0a6c949a33df.png" Reference="6huVHFJPy0-LV-9hU_2J-g/wzNdubU2XUCcj2V44-O4xQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Routers' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                        </uix:NGetText.Target>
+                      </uix:NGetText>
+                      <Assign sap:VirtualizedContainerService.HintSize="554,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="x:Object">[CurrentRow(5)]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="x:Object">[specText]</InArgument>
+                        </Assign.Value>
+                      </Assign>
+                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="We Portal" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="554,13300" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V2" WindowResize="Maximize">
+                        <uix:NApplicationCard.Body>
+                          <ActivityAction x:TypeArguments="x:Object">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,13060" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                              <Sequence.Variables>
+                                <Variable x:TypeArguments="x:String" Name="loginCurrentURL" />
+                                <Variable x:TypeArguments="x:String" Name="TagSearchKey">
+                                  <Variable.Default>
+                                    <Literal x:TypeArguments="x:String">mobile-phones</Literal>
+                                  </Variable.Default>
+                                </Variable>
+                              </Sequence.Variables>
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NGetUrl CurrentUrl="[loginCurrentURL]" DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="486,119" sap2010:WorkflowViewState.IdRef="NGetUrl_1" />
+                              <If Condition="[loginCurrentURL.Contains(loginURL)]" sap:VirtualizedContainerService.HintSize="486,1244" sap2010:WorkflowViewState.IdRef="If_1">
+                                <If.Then>
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,1017" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" ClipboardMode="Never" ContinueOnError="True" DisplayName="Type Into 'Email Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="reem.gamal@asset.com.eg" Timeout="2" Version="V4">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="81654bd5-862c-4084-8b42-c0aaeb0b9b24" ContentHash="lClf7dpv9EyeFt9KeZ6RuA" CvElementArea="24, 488, 1316, 42" CvType="InputBox" DesignTimeRectangle="28, 490, 1311, 40" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_login_web_portlet_LoginPortlet_login' tag='INPUT' type='text' class='field clearable form-control' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Email Address &amp;#x9;&amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cb7d3af6-1209-4173-b23d-622e605886c6" InformativeScreenshot="5ab2d853060f4c5c2b06115eb07103fd.png" IsResponsive="True" Reference="pjbHHYga6EWNWdbrBJOTug/7apSjibvCEiL2OK0PD5lOw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Complete">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="81654bd5-862c-4084-8b42-c0aaeb0b9b24" CvTextArea="27, 468, 93, 13" CvTextArgument="Email Address" CvType="Text" DesignTimeRectangle="28, 465, 92, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class=' control-label' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Email Address &amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email Address' /&gt;" Guid="15283920-1cc1-4a2e-a845-c4c7348603f6" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NTypeInto.Target>
+                                      <uix:NTypeInto.VerifyOptions>
+                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                        </uix:VerifyExecutionTypeIntoOptions>
+                                      </uix:NTypeInto.VerifyOptions>
+                                    </uix:NTypeInto>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="True" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="123456" Timeout="2" Version="V4">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="2a4991fa-ca2a-42b9-88fe-1c385156b080" ContentHash="FQI_-LA0b0GP7d2VVz9QIA" CvElementArea="23, 576, 1315, 43" CvType="InputBox" DesignTimeRectangle="28, 579, 1311, 40" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_login_web_portlet_LoginPortlet_password' tag='INPUT' type='password' class='field form-control' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Password &amp;#x9;&amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="4a628c40-d8cd-467d-a21c-c57db421e4c5" InformativeScreenshot="5e47c59f95899b5c642786fb937b1836.png" Reference="pjbHHYga6EWNWdbrBJOTug/_xLwtL6aokOHMpGuXNl_6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="2a4991fa-ca2a-42b9-88fe-1c385156b080" CvTextArea="27, 557, 65, 13" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="28, 554, 63, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Password &amp;#x9;&amp;#x9;&amp;#x9;' tag='LABEL' type='' class=' control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password' /&gt;" Guid="492c2a35-d494-4e13-aa59-666fba0065d2" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NTypeInto.Target>
+                                      <uix:NTypeInto.VerifyOptions>
+                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                        </uix:VerifyExecutionTypeIntoOptions>
+                                      </uix:NTypeInto.VerifyOptions>
+                                    </uix:NTypeInto>
+                                    <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,169" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="2" Version="V4" />
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DelayBefore="1" DisplayName="Click 'Sign In'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Timeout="2" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="4b019069-d24f-42a8-ba0e-0b1c6ae13860" ContentHash="MS4mGT0kwEy9wG1FiyW9ig" CvElementArea="8, 465, 85, 43" CvTextArea="22, 477, 54, 20" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="24, 477, 51, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='_com_liferay_login_web_portlet_LoginPortlet_gbzl' tag='SPAN' type='' class='lfr-btn-label' aaname='Sign In' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sign In' /&gt;" Guid="61c0508e-f82d-466d-82b7-33ba30342cfd" InformativeScreenshot="0e88b24da01d4c75a6791565038177bc.png" Reference="pjbHHYga6EWNWdbrBJOTug/zhoglVhhCESB7o54NAE-FA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Search - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="4b019069-d24f-42a8-ba0e-0b1c6ae13860" CvElementArea="8, 465, 85, 43" CvTextArea="22, 477, 54, 20" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="8, 467, 83, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_login_web_portlet_LoginPortlet_gbzl' tag='BUTTON' type='submit' class='btn  btn-primary' aaname=' &amp;#x9;      &amp;#x9;Sign In      &amp;#x9; &amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sign In' /&gt;" Guid="1c70afca-a51b-460e-a98e-60135344553a" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </If.Then>
+                                <If.Else>
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </If.Else>
+                              </If>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="486,122" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                              <uix:NGoToUrl DelayBefore="5" DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="486,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="[WebContentDevicesURL]" Version="V4" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'Mobile Phones'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/search" CVScreenId="51a4e4b3-984d-4e2c-925e-e4895de65f98" ContentHash="LZkn_s3WcUG2sLw53rZOKA" CvTextArea="433, 437, 96, 13" CvTextArgument="Mobile Phones" CvType="Text" DesignTimeRectangle="434, 433, 95, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='_com_liferay_journal_web_portlet_JournalPortlet_articles_3' tag='A' /&gt;" Guid="964efb95-7bc5-455d-8b2c-ae4a8e003e9a" InformativeScreenshot="2282c5f3ff6f0892e7858da0b852c02a.png" Reference="6huVHFJPy0-LV-9hU_2J-g/a65Jlr2Sb0ezQJa0nvS_1Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="51a4e4b3-984d-4e2c-925e-e4895de65f98" CvTextArea="400, 213, 49, 13" CvTextArgument="Devices" CvType="Text" DesignTimeRectangle="401, 209, 48, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Devices' class='breadcrumb-text-truncate' parentid='_com_liferay_journal_web_portlet_JournalPortlet_infoPanelId' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Devices' /&gt;" Guid="954c45bd-0af5-4d55-86b6-ebbd4c46b6b9" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click 'New'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.DelayAfter>
+                                  <InArgument x:TypeArguments="x:Double">
+                                    <Literal x:TypeArguments="x:Double" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="1" />
+                                  </InArgument>
+                                </uix:NClick.DelayAfter>
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/search" CVScreenId="5b0c556c-8bb1-4787-84da-ceaef6212e9b" ContentHash="8O8GDSFc6UqpMy4G2BZOuA" CvElementArea="1211, 237, 83, 35" CvTextArea="1236, 248, 31, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1221, 244, 61, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='New' parentid='portlet_com_liferay_journal_web_portlet_JournalPortlet' tag='SPAN' type='' class='d-md-block d-none pl-3 pr-3' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="a6902797-5d5d-42e9-a631-cec7c89ab508" InformativeScreenshot="723e18a855065e81c80aa3ed292171f6.png" Reference="6huVHFJPy0-LV-9hU_2J-g/umP8adY5mEyXZEURI0nOWQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="5b0c556c-8bb1-4787-84da-ceaef6212e9b" CvElementArea="1211, 237, 83, 35" CvTextArea="1236, 248, 31, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1212, 239, 79, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-label='New' class='dropdown-toggle nav-btn d-md-flex d-none btn btn-primary' tag='BUTTON' type='button' aaname='New' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New' /&gt;" Guid="35aa80a9-1485-42a7-8d63-cdf125bd83ab" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'Comparison Card'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/search" CVScreenId="bab339ce-8f77-443b-8b8f-1aecaabf4e73" ContentHash="uJcjf5EFZ0unOVBeViLB2A" CvTextArea="1102, 378, 108, 16" CvTextArgument="Comparison Card" CvType="Text" DesignTimeRectangle="1059, 368, 225, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Comparison Card' aria-role='menuitem' parentid='clay-dropdown-menu-6' tag='A' /&gt;" Guid="d168285e-caa4-4e5b-91cd-ae2ce08366f6" InformativeScreenshot="afb0e406e6ca66595f6186a5150e8883.png" Reference="6huVHFJPy0-LV-9hU_2J-g/cBng1lzUhECkLiyj55L5dw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="bab339ce-8f77-443b-8b8f-1aecaabf4e73" CvTextArea="1102, 347, 61, 12" CvTextArgument="FAVORITES" CvType="Text" DesignTimeRectangle="1059, 338, 225, 30" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl id='clay-dropdown-menu-group-4' tag='LI' type='' class='dropdown-subheader' aaname='Favorites' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='FAVORITES' /&gt;" Guid="66573910-c2fb-4b1b-938a-0d41be8bd4a7" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBefore="1" DisplayName="Type Into 'Title 1' device name" EmptyFieldMode="MultiLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="[CurrentRow(0).ToString]" Version="V4">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="6ef4aa14-69bd-470d-adf9-a6848695192e" ContentHash="ERQbtWXY4kC_ViFlZECs7Q" CvElementArea="400, 628, 577, 43" CvType="InputBox" DesignTimeRectangle="401, 630, 577, 40" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset53350540$tk3DOFNx$0#Fieldset18137327$kSmHqfjW$0#Text18399877$BtDF16j1$0$$en_US' tag='INPUT' type='text' class='form-control ddm-field-text' aaname='Title 1' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ccda648d-db7f-4005-a277-dd7e31292469" InformativeScreenshot="d6346831b6515dd6da6ad739f450e44d.png" IsResponsive="True" Reference="6huVHFJPy0-LV-9hU_2J-g/3EU4IORN0UWDmt3hhRnAVg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="6ef4aa14-69bd-470d-adf9-a6848695192e" CvTextArea="399, 609, 39, 13" CvTextArgument="Title 1" CvType="Text" DesignTimeRectangle="401, 605, 37, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='clay-id-24' tag='LABEL' type='' class='ddm-label' aaname='Title 1' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Title 1' /&gt;" Guid="37274bea-050c-4b97-ad77-08a3f3b61549" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll to image" sap:VirtualizedContainerService.HintSize="334,237" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.HealingAgentBehavior>
+                                  <InArgument x:TypeArguments="uix:NChildHealingAgentBehavior">
+                                    <Literal x:TypeArguments="uix:NChildHealingAgentBehavior" sap2010:WorkflowViewState.IdRef="Literal`1_1" />
+                                  </InArgument>
+                                </uix:NMouseScroll.HealingAgentBehavior>
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="781a8819-1467-4c7e-879c-eba62c44d669" ContentHash="Kf4N1YQH0k-xqryGNsIFNQ" CvTextArea="392, 516, 41, 16" CvTextArgument="Image" CvType="Text" DesignTimeRectangle="393, 512, 88, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Image' parentid='clay-id-23' tag='LABEL' /&gt;" Guid="e2d573de-21bc-4ba8-9b1f-ddbebcdb94b4" InformativeScreenshot="d922df960e5bdde05db260b5c63d3170.png" Reference="6huVHFJPy0-LV-9hU_2J-g/aOpK9cY7Fkm6K-zR4_tF7A" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.ScopeSelectorArgument>
+                                          <InArgument x:TypeArguments="x:String">
+                                            <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_2">&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;</Literal>
+                                          </InArgument>
+                                        </uix:TargetAnchorable.ScopeSelectorArgument>
+                                      </uix:TargetAnchorable>
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'Select' Image" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="811135b9-d702-4fd8-b81f-d6a83512ce1b" ContentHash="iydtUJuSo06X3_LNisSd3g" CvElementArea="899, 536, 77, 42" CvTextArea="915, 549, 45, 15" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="900, 537, 75, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Select' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' parentid='clay-id-23' tag='BUTTON' type='button' /&gt;" Guid="08275978-c498-456b-af9f-538cef3272d6" InformativeScreenshot="2f83beb3c4f301af82841be78ed07bfa.png" Reference="6huVHFJPy0-LV-9hU_2J-g/zGqGIDmWJUmgt7XI2aav_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="811135b9-d702-4fd8-b81f-d6a83512ce1b" CvTextArea="392, 516, 41, 16" CvTextArgument="Image" CvType="Text" DesignTimeRectangle="393, 512, 88, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Image' parentid='clay-id-23' tag='LABEL' type='' class='ddm-label ddm-repeatable' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Image' /&gt;" Guid="d827d961-12d7-4845-a177-40072fef3003" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'New' Image" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="cf1ae296-651d-4a88-baba-dcab0a7ee4c2" ContentHash="DTk0A4D8-kyY-JnHHo29qg" CvElementArea="1208, 267, 82, 35" CvTextArea="1233, 278, 31, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1209, 269, 79, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aria-label='New' class='dropdown-toggle nav-btn d-md-flex d-none btn btn-primary' tag='BUTTON' type='button' aaname='New' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New' /&gt;" Guid="35838f37-b528-4ca6-81a9-ebe5d8b06303" InformativeScreenshot="8897ac6b62acdf0c70b8794d5f776dbb.png" Reference="6huVHFJPy0-LV-9hU_2J-g/DolRIrRDFE6vwpJEVgnZuw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="cf1ae296-651d-4a88-baba-dcab0a7ee4c2" CvElementArea="1208, 267, 82, 35" CvTextArea="1233, 278, 31, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1218, 274, 61, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='New' parentid='p_p_id_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_' tag='SPAN' type='' class='d-md-block d-none pl-3 pr-3' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="7d896cd5-0701-463d-9673-7ec1f77c992c" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'File Upload'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="41e4e45f-e9b9-4bb1-8e48-098831373afa" ContentHash="qOdj159-5UuOcGgCq2Vx4Q" CvTextArea="1099, 336, 71, 16" CvTextArgument="File Upload" CvType="Text" DesignTimeRectangle="1056, 326, 240, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aria-role='menuitem' parentid='clay-dropdown-menu-4' tag='A' /&gt;" Guid="33d014b8-10df-4fdb-a260-00dbaa87aaca" InformativeScreenshot="1417de6a1580c7c61dfb47f6377531dc.png" Reference="6huVHFJPy0-LV-9hU_2J-g/QqH3mFNIcUWMxnerTGQaFw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="41e4e45f-e9b9-4bb1-8e48-098831373afa" CvElementArea="1208, 267, 82, 35" CvTextArea="1232, 278, 32, 13" CvTextArgument="New" CvType="Button" DesignTimeRectangle="1218, 274, 61, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='New' parentid='p_p_id_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_' tag='SPAN' type='' class='d-md-block d-none pl-3 pr-3' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New' /&gt;" Guid="6a295e32-8fc4-4950-8510-162482598276" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="3" DisplayName="Click 'Select File'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="bbfaca13-4064-48e8-8990-2518d98a9dee" ContentHash="2yEpqWI8RUqlKjV6q1hGjQ" CvElementArea="108, 397, 107, 43" CvTextArea="123, 410, 75, 15" CvTextArgument="Select File" CvType="Button" DesignTimeRectangle="109, 398, 104, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' /&gt;" Guid="858646b6-aed4-4181-a979-c05e174368ba" InformativeScreenshot="553c56ee1618577d59efab208e051b61.png" Reference="6huVHFJPy0-LV-9hU_2J-g/MBSoOQm7o0emDh1Z3-dchw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="bbfaca13-4064-48e8-8990-2518d98a9dee" CvTextArea="108, 377, 72, 16" CvTextArgument="File Upload" CvType="Text" DesignTimeRectangle="109, 373, 71, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='LABEL' type='' class='control-label' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;File Upload &amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='File Upload' /&gt;" Guid="a78da797-3e11-4471-8a20-f109acf90805" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="3" DelayBefore="1" DisplayName="Type Into 'File &amp;name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="[CurrentRow(4).ToString()]" Version="V4">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="98dacc28-81f5-4bed-a07c-080a7612c38f" ContentHash="71qUH-t04U2BralVPQ8CnQ" CvElementArea="196, 399, 263, 26" CvType="InputBox" DesignTimeRectangle="201, 405, 237, 15" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;wnd ctrlid='1148' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="01ad58f9-c9e5-4afe-87f5-3ac7040ae6aa" InformativeScreenshot="bcd263bc38081a3a1248d32bf2c6d304.png" IsResponsive="True" Reference="6huVHFJPy0-LV-9hU_2J-g/65gNJ9fNU0m2wdwDhYRg4Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="98dacc28-81f5-4bed-a07c-080a7612c38f" CvTextArea="137, 405, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 404, 54, 15" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='File &amp;amp;name:' /&gt;" Guid="6175f8ae-7d4b-4532-87b6-5e2f347ccff2" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DelayBefore="1" DisplayName="Click open file explorer image" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="HardwareEvents" KeyModifiers="None" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.MouseButton>
+                                  <InArgument x:TypeArguments="uix:NMouseButton">
+                                    <Literal x:TypeArguments="uix:NMouseButton" sap2010:WorkflowViewState.IdRef="Literal`1_4" />
+                                  </InArgument>
+                                </uix:NClick.MouseButton>
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" ContentHash="jkg4VTYGzUy6LlvPK61QCA" DesignTimeRectangle="470, 429, 88, 26" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" Guid="422beae1-8e7c-43c2-a961-02fcdabe7fe0" InformativeScreenshot="5982abfa35854027a0dd743c489b9554.png" Reference="6huVHFJPy0-LV-9hU_2J-g/vXJYe-kgp0OdKVQjUYs9fg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll Publish Image" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="91cd5cce-9368-4726-a660-d07f49e23ddb" ContentHash="ZZ-Yl5WuVkOo2tjqnoOTCg" CvElementArea="107, 506, 87, 43" CvTextArea="123, 520, 55, 15" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="125, 517, 52, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl parentid='_com_liferay_document_library_web_portlet_DLAdminPortlet_publishButton' tag='SPAN' type='' class='lfr-btn-label' aaname='Publish' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Publish' /&gt;" Guid="1c9b390d-529c-4a74-a18a-766d8769a008" InformativeScreenshot="071d3de3495cc66321d7c5c9cd4df020.png" Reference="6huVHFJPy0-LV-9hU_2J-g/3Hhhl41YHESrTBQS6t4nVA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="91cd5cce-9368-4726-a660-d07f49e23ddb" CvElementArea="107, 506, 87, 43" CvTextArea="123, 520, 55, 15" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="109, 508, 84, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='_com_liferay_document_library_web_portlet_DLAdminPortlet_publishButton' tag='BUTTON' type='submit' class='btn  btn-primary' aaname=' &amp;#x9;      &amp;#x9;Publish      &amp;#x9; &amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Publish' /&gt;" Guid="b48c313a-850b-4c86-b8f5-c1adc243e3ad" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="30" DelayBefore="1" DisplayName="Click 'Publish'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="91cd5cce-9368-4726-a660-d07f49e23ddb" ContentHash="wC1WTyC08U2gYOqQf5lLBQ" CvElementArea="107, 506, 87, 43" CvTextArea="123, 520, 55, 15" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="125, 517, 52, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl parentid='_com_liferay_document_library_web_portlet_DLAdminPortlet_publishButton' tag='SPAN' type='' class='lfr-btn-label' aaname='Publish' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Publish' /&gt;" Guid="d31908b8-263d-4dd3-859b-c495fd1a9eae" InformativeScreenshot="7ae734d69ab921823f20cd747afd427f.png" Reference="6huVHFJPy0-LV-9hU_2J-g/YrweUmX2BE-emPLOQkiMiQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="91cd5cce-9368-4726-a660-d07f49e23ddb" CvElementArea="107, 506, 87, 43" CvTextArea="123, 520, 55, 15" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="109, 508, 84, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='_com_liferay_document_library_web_portlet_DLAdminPortlet_publishButton' tag='BUTTON' type='submit' class='btn  btn-primary' aaname=' &amp;#x9;      &amp;#x9;Publish      &amp;#x9; &amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Publish' /&gt;" Guid="7c8b0363-7d27-4cb4-9129-82a68a1645ba" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <Delay Duration="00:00:40" sap:VirtualizedContainerService.HintSize="486,122" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Order'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="5a7455c5-0eac-4cab-b9bd-9a019ec03407" ContentHash="gHNjjMic3EuoB_WJ50LwYQ" CvTextArea="216, 278, 39, 13" CvTextArgument="Order" CvType="Text" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' /&gt;" Guid="5c25c84e-5232-4e03-a0d2-a9a01c8d9fae" InformativeScreenshot="bde9210ae6e6d6f6cfb7b4bf4f7a3fd0.png" Reference="6huVHFJPy0-LV-9hU_2J-g/z6cjN5wJrkCxbpBsOwwiKQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="5a7455c5-0eac-4cab-b9bd-9a019ec03407" CvTextArea="108, 278, 34, 13" CvTextArgument="Filter" CvType="Text" DesignTimeRectangle="110, 274, 31, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Filter' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Filter' /&gt;" Guid="1521e653-2b50-4ba6-b381-a1d5522ac905" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Modified Date'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.MouseButton>
+                                  <InArgument x:TypeArguments="uix:NMouseButton">
+                                    <Literal x:TypeArguments="uix:NMouseButton" sap2010:WorkflowViewState.IdRef="Literal`1_3" />
+                                  </InArgument>
+                                </uix:NClick.MouseButton>
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="52b7b86c-bce7-47cc-8d13-a2a75cdb42e8" ContentHash="6VTZUNOrLU6Hev6Cnxa7Cw" CvTextArea="230, 353, 90, 13" CvTextArgument="Modified Date" CvType="Text" DesignTimeRectangle="187, 343, 240, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aaname='Modified Date' aria-role='menuitem' parentid='clay-dropdown-menu-2' tag='A' /&gt;" Guid="bea85715-3462-42dd-985a-4b5319cead83" InformativeScreenshot="1eb5eb146b39798ee1375bce93c0bfe6.png" Reference="6huVHFJPy0-LV-9hU_2J-g/JABWgjbVekegOm60ueNalA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="52b7b86c-bce7-47cc-8d13-a2a75cdb42e8" CvElementArea="186, 267, 99, 35" CvType="InputBox" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Order' /&gt;" Guid="207470a5-2640-4fb8-a222-342f07c45fe5" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'Order'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="5a7455c5-0eac-4cab-b9bd-9a019ec03407" ContentHash="gHNjjMic3EuoB_WJ50LwYQ" CvTextArea="216, 278, 39, 13" CvTextArgument="Order" CvType="Text" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' /&gt;" Guid="5c25c84e-5232-4e03-a0d2-a9a01c8d9fae" InformativeScreenshot="bde9210ae6e6d6f6cfb7b4bf4f7a3fd0.png" Reference="6huVHFJPy0-LV-9hU_2J-g/z6cjN5wJrkCxbpBsOwwiKQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="5a7455c5-0eac-4cab-b9bd-9a019ec03407" CvTextArea="108, 278, 34, 13" CvTextArgument="Filter" CvType="Text" DesignTimeRectangle="110, 274, 31, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Filter' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Filter' /&gt;" Guid="1521e653-2b50-4ba6-b381-a1d5522ac905" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'Descending'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="46f0f262-cfb4-48bb-9aea-7642aac86674" ContentHash="C2MqkLyksUiF_zGgosLidQ" CvTextArea="230, 466, 74, 16" CvTextArgument="Descending" CvType="Text" DesignTimeRectangle="187, 456, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aria-role='menuitem' tag='BUTTON' /&gt;" Guid="d41c48e3-b685-48f1-b125-2d88cc43a8c8" InformativeScreenshot="861e102c917bbb8210b8fc4a36854de9.png" Reference="6huVHFJPy0-LV-9hU_2J-g/WP3rMa1lAkijo0s4UqpqVQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="46f0f262-cfb4-48bb-9aea-7642aac86674" CvElementArea="186, 267, 99, 35" CvType="InputBox" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Order' /&gt;" Guid="99c4d0eb-55c8-4920-9b0c-14ec7264cd13" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll to device image" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" Version="V4">
+                                <uix:NMouseScroll.MovementUnits>
+                                  <InArgument x:TypeArguments="x:Int32">
+                                    <Literal x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="Literal`1_5" Value="10" />
+                                  </InArgument>
+                                </uix:NMouseScroll.MovementUnits>
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="ec37bb5e-6773-41b7-bf55-8f1d0e0cd98d" ContentHash="sweU6Tw0RUiCSurkR8yFxw" CvTextArea="71, 375, 74, 12" CvTextArgument="DOCUMENTS" CvType="Text" DesignTimeRectangle="60, 435, 1248, 30" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='DT' class='card-section-header container-fluid' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Documents &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DOCUMENTS' /&gt;" Guid="d84ad64e-81c3-45e4-aa67-f7f722a8a357" InformativeScreenshot="cc33399a901e316533b9cdeaffa8f507.png" Reference="6huVHFJPy0-LV-9hU_2J-g/l19kPeaojky7HcDJPatriA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'Documents' image" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="4e953955-80a5-4416-9151-84109a370513" ContentHash="2m_eWNgYnEKISfcIpKnO1w" CvTextArea="98, 439, 10, 8" CvTextArgument="1a" CvType="Text" DesignTimeRectangle="97, 435, 13, 16" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl parentid='_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_repositoryEntriesSearchContainer_12' tag='use' /&gt;" Guid="0fe1d9b3-70bb-4457-9989-4af08212bcad" InformativeScreenshot="6728eec8c8adcf28c396bc613689e187.png" Reference="6huVHFJPy0-LV-9hU_2J-g/Ag2Oj1PBYUyZzO5PFwd12Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="4e953955-80a5-4416-9151-84109a370513" CvTextArea="70, 268, 75, 12" CvTextArgument="DOCUMENTS" CvType="Text" DesignTimeRectangle="60, 259, 1248, 30" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='DT' class='card-section-header container-fluid' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Documents &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DOCUMENTS' /&gt;" Guid="5b094a9b-f1f5-4eec-9d11-6721adc11091" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayAfter="1" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll to price" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_5" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="d1f7eb30-0a20-411b-acfc-575bed78a3a9" ContentHash="QACIIdqAEEqCXH__zgHCGg" CvTextArea="399, 471, 37, 13" CvTextArgument="Value" CvType="Text" DesignTimeRectangle="401, 467, 35, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Value' parentid='clay-id-26' tag='LABEL' /&gt;" Guid="1e60bcaf-9261-42d2-9385-172cacc28532" InformativeScreenshot="b28d03aa0a2ad53f0290260dc5c032d1.png" Reference="6huVHFJPy0-LV-9hU_2J-g/WCQgMPgNZUW0lyl57DDDNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="d1f7eb30-0a20-411b-acfc-575bed78a3a9" CvElementArea="384, 300, 604, 41" CvType="InputBox" DesignTimeRectangle="389, 309, 37, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Price' class='text-uppercase' parentid='clay-id-23' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='PRICE' /&gt;" Guid="05944bf8-a4b9-48b2-bf03-d874e1f28565" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Value' price" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="[CurrentRow(1).ToString]" Version="V4">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="d1f7eb30-0a20-411b-acfc-575bed78a3a9" ContentHash="l3eNPbhwq0yvlgn-wAR99g" CvElementArea="399, 490, 578, 43" CvType="InputBox" DesignTimeRectangle="401, 492, 577, 40" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset53350540$tk3DOFNx$0#Fieldset97358786$kflmtAJ8$0#Numeric83511340$nz6WcNMw$0$$en_US' tag='INPUT' type='text' class='form-control' aaname='Value' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="5790a1fb-a05a-4483-b816-351683b4b6e0" InformativeScreenshot="45cac4a7c83fe456561fd92e79a3636d.png" IsResponsive="True" Reference="6huVHFJPy0-LV-9hU_2J-g/erRt82d6IUubSxBNbDjmog" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="d1f7eb30-0a20-411b-acfc-575bed78a3a9" CvTextArea="399, 471, 37, 13" CvTextArgument="Value" CvType="Text" DesignTimeRectangle="401, 467, 35, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Value' parentid='clay-id-26' tag='LABEL' type='' class='ddm-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Value' /&gt;" Guid="d855dab2-47ea-46f7-93e1-6d4d385e218a" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayAfter="1" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll to spec" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_6" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" ContentHash="IfAUK4Ze2Ei0BIZ3oWNFVw" CvTextArea="415, 441, 60, 13" CvTextArgument="Attribute" CvType="Text" DesignTimeRectangle="417, 437, 57, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset95726561$0kevUdu0$0#Fieldset13618790$J3HeuuQh$0#Radio80246063$nbcGApr1$0$$en_US_fieldDetails' tag='LABEL' /&gt;" Guid="626ab505-aaac-4151-9db9-b8f320c66c44" InformativeScreenshot="6f216f440eadda334a6706af680934f8.png" Reference="6huVHFJPy0-LV-9hU_2J-g/8IFfsXXdoUS6GXJNmKGPjQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" CvTextArea="404, 295, 108, 13" CvTextArgument="PRODUCT SPECS" CvType="Text" DesignTimeRectangle="405, 294, 107, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Product specs' parentid='clay-id-29' tag='LABEL' type='' class='text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='PRODUCT SPECS' /&gt;" Guid="50241c00-99dd-4346-81b5-c6a8f11424ba" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NCheck Action="Check" DelayAfter="1" DelayBefore="1" DisplayName="Check/Uncheck 'Radiobutton' manufacture" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,189" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NCheck.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" ContentHash="ItXEf64F-kaj15MuVo3GcQ" DesignTimeRectangle="433, 468, 16, 16" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl parentid='clay-id-31' tag='INPUT' type='radio' class='custom-control-input' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="168a0d50-d6f4-4683-a03c-182fd70e3f13" InformativeScreenshot="50f05b3db611c1d4a11d7781978fbc52.png" Reference="6huVHFJPy0-LV-9hU_2J-g/cUbkHkCnZ0aT0asoqjjQ7A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="0989a20d-b987-4119-9e5b-8b4a0cca8c5d" CvElementArea="431, 466, 20, 20" CvTextArea="456, 469, 108, 16" CvTextArgument="Manufactured by" CvType="RadioButton" DesignTimeRectangle="433, 466, 129, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='clay-id-31' tag='LABEL' class='' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Manufactured by' /&gt;" Guid="5fe05859-659d-4a01-abf4-2ea5d031d5c1" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NCheck.Target>
+                              </uix:NCheck>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="1" DelayBefore="1" DisplayName="Type Into 'Value' manufacture" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="[CurrentRow(2).ToString]" Version="V4">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="5a59d9d8-6f84-408c-897d-1acd8a5385fe" ContentHash="32yp7FKoMUm0XaNt125-xQ" CvElementArea="413, 560, 550, 102" CvType="InputBox" DesignTimeRectangle="417, 563, 545, 100" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset95726561$0kevUdu0$0#Fieldset13618790$J3HeuuQh$0#Text51363779$5LfZSNAT$0$$en_US' tag='TEXTAREA' type='' class='ddm-field-text form-control' aaname='Value' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="998de265-e2dc-49ab-9fae-5e24a004b3c4" InformativeScreenshot="c50c5c2a29b198c259426b5fb5a58623.png" IsResponsive="True" Reference="6huVHFJPy0-LV-9hU_2J-g/zwR50Fu5ckqEkYYWmNfKfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="5a59d9d8-6f84-408c-897d-1acd8a5385fe" CvTextArea="415, 542, 37, 13" CvTextArgument="Value" CvType="Text" DesignTimeRectangle="417, 538, 35, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Value' class='ddm-label' parentid='clay-id-31' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Value' /&gt;" Guid="dc38f863-9ec6-410f-86a4-286c32094b95" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click Select Icon" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="74897533-cdff-4b38-99e2-51f4fa2a00e9" ContentHash="b1lDu-0ZcU--bxEoIP3sMA" CvElementArea="887, 386, 77, 42" CvTextArea="903, 399, 45, 15" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="888, 387, 75, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='clay-id-31' tag='BUTTON' type='button' /&gt;" Guid="9b181b1c-0bef-4cd7-a898-c7b62aae6252" InformativeScreenshot="1cf0887c4c6935c08e078531eecd86fe.png" Reference="6huVHFJPy0-LV-9hU_2J-g/8x5u-958c0ucrD3uU_Xmbw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="74897533-cdff-4b38-99e2-51f4fa2a00e9" CvTextArea="404, 295, 108, 13" CvTextArgument="PRODUCT SPECS" CvType="Text" DesignTimeRectangle="405, 294, 107, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Product specs' parentid='clay-id-29' tag='LABEL' type='' class='text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='PRODUCT SPECS' /&gt;" Guid="c3118a2c-9bb6-4aae-9192-51ef818377a8" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayAfter="1" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll to icon" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_7" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="0473e59c-2a4b-4e4b-9085-dd08c2da7c7d" ContentHash="D35WHbjXF0WzhSC6Fff1bw" CvElementArea="94, 477, 20, 21" CvType="Icon" DesignTimeRectangle="97, 480, 13, 16" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl parentid='_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_repositoryEntriesSearchContainer_12' tag='use' /&gt;" Guid="826ce95f-06ef-4cff-a772-a4928c7159ed" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhPtdQ7EkAwFAVQOzWjUaVWptQqdFmEFah02YAN6IwFqK554xPJ84ngztwZIe80QYQPElmrcQTa9roHMUjXAVkGxPF1tbYAikGqig+c1YHCEAcKR3bQO4Rm/kfoOPOcD75ClApAqGVprvseEOIhIuV8n6BlM+r6AZKmwDBsj6wUhSfifi9uk8QD8e0/SNPwTXelGfY/IZneDZ+uJ8aQwHyCTGk5a7Msi5HsAAAAAElFTkSuQmCC" InformativeScreenshot="dd557c114a0d2e4721035355fc4d0757.png" Reference="6huVHFJPy0-LV-9hU_2J-g/WFUuiGyRYECSA2hPhacJWA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="0473e59c-2a4b-4e4b-9085-dd08c2da7c7d" CvTextArea="71, 313, 74, 12" CvTextArgument="DOCUMENTS" CvType="Text" DesignTimeRectangle="60, 304, 1248, 30" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='DT' class='card-section-header container-fluid' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Documents &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DOCUMENTS' /&gt;" Guid="975df804-f5ac-41dc-aabb-c9ad9296ed4c" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'Documents' icon" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="0473e59c-2a4b-4e4b-9085-dd08c2da7c7d" ContentHash="rnUfFs-9gkqvvRzVEzXCzw" CvElementArea="94, 477, 20, 21" CvType="Icon" DesignTimeRectangle="97, 480, 13, 16" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl parentid='_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_repositoryEntriesSearchContainer_12' tag='use' /&gt;" Guid="6c57d6f2-b50d-4952-bcdb-062c6067af42" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhPtdQ7EkAwFAVQOzWjUaVWptQqdFmEFah02YAN6IwFqK554xPJ84ngztwZIe80QYQPElmrcQTa9roHMUjXAVkGxPF1tbYAikGqig+c1YHCEAcKR3bQO4Rm/kfoOPOcD75ClApAqGVprvseEOIhIuV8n6BlM+r6AZKmwDBsj6wUhSfifi9uk8QD8e0/SNPwTXelGfY/IZneDZ+uJ8aQwHyCTGk5a7Msi5HsAAAAAElFTkSuQmCC" InformativeScreenshot="b60668aa494702c03c6c897564d0ba17.png" Reference="6huVHFJPy0-LV-9hU_2J-g/p8NOtyayC0i_G4nrYrVOmw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="0473e59c-2a4b-4e4b-9085-dd08c2da7c7d" CvTextArea="71, 313, 74, 12" CvTextArgument="DOCUMENTS" CvType="Text" DesignTimeRectangle="60, 304, 1248, 30" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' tag='DT' class='card-section-header container-fluid' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Documents &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='DOCUMENTS' /&gt;" Guid="f08067d4-956c-462e-aae8-e4b7b505435c" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayAfter="1" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll to card config" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_8" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" ContentHash="yTEtMK_K6Uq0pcIY09ekag" CvTextArea="388, 475, 52, 18" CvTextArgument="Group *" CvType="Text" DesignTimeRectangle="389, 473, 50, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Group' class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' /&gt;" Guid="db644428-42f1-4b13-a16e-1a5072f155d7" InformativeScreenshot="e38a7c409a95eba1690b4bfb7ebc23fd.png" Reference="6huVHFJPy0-LV-9hU_2J-g/XH6A-Z_ZKEqGmca32gvTpA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" CvTextArea="376, 294, 153, 13" CvTextArgument="CARD CONFIGURATION" CvType="Text" DesignTimeRectangle="377, 290, 152, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Card Configuration' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' class='text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='CARD CONFIGURATION' /&gt;" Guid="1e97092c-2cd8-40de-be0b-6fa466badcc2" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'Choose an Option' segment" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" ContentHash="X4JeKgHP7EisBjPtwYZw_w" CvElementArea="389, 406, 588, 42" CvType="InputBox" DesignTimeRectangle="389, 407, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary' aaname='Choose an Option' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="bc0113e8-57d0-41b9-8016-ed63bfb9b3e4" InformativeScreenshot="b415e4932751e4dc2229ef7ee0171646.png" Reference="6huVHFJPy0-LV-9hU_2J-g/PveiC4NdKEeFSF5Rp9Zt0g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="a92e64bc-ff37-4938-bd5e-46f55f288c2d" CvTextArea="388, 384, 69, 18" CvTextArgument="Segment *" CvType="Text" DesignTimeRectangle="389, 382, 67, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' aaname='Segment' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segment' /&gt;" Guid="9c01d76c-0b19-4699-93d1-9de41e8190e2" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click 'Segment 1' select segment" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="2130ff2b-cd6a-4bac-8bc2-c3e79e63bcca" ContentHash="eE148F9WSEabY18la-hJxQ" CvTextArea="416, 530, 67, 16" CvTextArgument="Segment 1" CvType="Text" DesignTimeRectangle="389, 521, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Option99328851' tag='BUTTON' /&gt;" Guid="b5c7b29d-9e4f-4068-9c9e-75d0b89af74e" InformativeScreenshot="c84c7399db5612548c2e12f301512333.png" Reference="6huVHFJPy0-LV-9hU_2J-g/rNaXWIh-J0ym-PqXexxruQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="2130ff2b-cd6a-4bac-8bc2-c3e79e63bcca" CvTextArea="388, 384, 69, 18" CvTextArgument="Segment *" CvType="Text" DesignTimeRectangle="389, 382, 67, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' aaname='Segment' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segment' /&gt;" Guid="d5763812-5816-4636-b01a-b9b4208a8eb4" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click group" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="73fc87ce-596e-4289-8c01-08f56e4f7f57" ContentHash="URz1y435REWrhhOlWfmlbA" CvElementArea="389, 497, 588, 42" CvType="InputBox" DesignTimeRectangle="389, 498, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset29880906$x0klC1PF$0#Field42807688$nj4h4epF$0$$en_US' aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary' aaname='Choose an Option' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="db5c9c1b-e368-455c-8c2b-3d579e0ca595" InformativeScreenshot="fabc947c331c13b5fa889989a51a612d.png" Reference="6huVHFJPy0-LV-9hU_2J-g/D1gL5keDJEOpCW3fi7hong" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="73fc87ce-596e-4289-8c01-08f56e4f7f57" CvTextArea="388, 475, 52, 18" CvTextArgument="Group *" CvType="Text" DesignTimeRectangle="389, 473, 50, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Group' class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Group' /&gt;" Guid="0ce96f5f-929b-4a17-b0ea-d499a8bc1ab0" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click select group" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="32095015-0382-4aa7-b15d-50499b80d84d" ContentHash="eBeQD-9t00eq1rmTsGu8WQ" CvTextArea="416, 369, 97, 13" CvTextArgument="Mobile Internet" CvType="Text" DesignTimeRectangle="389, 360, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Option99328851' tag='BUTTON' /&gt;" Guid="7f62f932-28d9-45fc-a166-4faa1d26a796" InformativeScreenshot="92246652a2ae48d5a2fee217eebe12da.png" Reference="6huVHFJPy0-LV-9hU_2J-g/kb0sN4Wia0KJ2npBPAgbmQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="32095015-0382-4aa7-b15d-50499b80d84d" CvElementArea="387, 497, 591, 42" CvType="InputBox" DesignTimeRectangle="389, 498, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset29880906$x0klC1PF$0#Field42807688$nj4h4epF$0$$en_US' aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary show' aaname='Choose an Option' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="c59b2652-e8e1-43b4-9851-593ac44d8506" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click Sub group" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="9283791f-c88b-4be6-ac13-0351aac18f61" ContentHash="aTAS6SHQqUChuDqnklgZvw" CvElementArea="389, 588, 588, 41" CvType="InputBox" DesignTimeRectangle="389, 589, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset29880906$x0klC1PF$0#Field03332201$QZ3OeEFu$0$$en_US' aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary' aaname='Choose an Option' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="bf624b86-f708-49b6-9fd9-f33ace0aab02" InformativeScreenshot="6c92309f3458125d5ed86ca36d4664fd.png" Reference="6huVHFJPy0-LV-9hU_2J-g/b9FfAxsfKkK3LlKXFAZhIw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="9283791f-c88b-4be6-ac13-0351aac18f61" CvTextArea="387, 566, 83, 18" CvTextArgument="Sub-Group *" CvType="Text" DesignTimeRectangle="389, 564, 80, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Sub-Group' class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Sub-Group' /&gt;" Guid="2de4ec5e-cf58-4ce0-afac-99a99aea7f9d" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DelayBefore="1" DisplayName="Click Select sub group" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="332ab49e-8336-4424-981d-5b0275930b46" ContentHash="y3-gBjaizkKAEZY8j1evJA" CvTextArea="416, 492, 72, 16" CvTextArgument="subGroup 1" CvType="Text" DesignTimeRectangle="389, 483, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Option99328851' tag='BUTTON' /&gt;" Guid="4765d366-e1ac-43fa-81a4-56c76915c3f1" InformativeScreenshot="49f67c16f7a820da5afd7265ecbdacbe.png" Reference="6huVHFJPy0-LV-9hU_2J-g/JE2PTX9-gkeCvwDy6YZulQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="332ab49e-8336-4424-981d-5b0275930b46" CvElementArea="945, 596, 23, 26" CvTextArea="405, 601, 129, 19" CvTextArgument="Choose an Option" CvType="ArrowButton" DesignTimeRectangle="389, 589, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset29880906$x0klC1PF$0#Field03332201$QZ3OeEFu$0$$en_US' aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary show' aaname='Choose an Option' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="69cbf68c-771d-4f11-8a16-ef849a839b9a" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'New Web Content'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="[CurrentRow(0).ToString]" Version="V4">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/personal" CVScreenId="c27d4e51-f0bc-44a6-89c1-8cca67f64f16" ContentHash="_P4UQ_uzBkK0EliEHPlJ7g" CvTextArea="410, 200, 222, 17" CvTextArgument="Untitled Comparison Card" CvType="Text" DesignTimeRectangle="394, 189, 591, 40" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_titleMapAsXML' tag='INPUT' /&gt;" Guid="3abe0810-9334-40b9-818e-9b4c373d1d18" InformativeScreenshot="43946fa4c96b9fc627047f4fe99dff8c.png" IsResponsive="True" Reference="6huVHFJPy0-LV-9hU_2J-g/azPU29DUWEKyh8A6RKDrAA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="c27d4e51-f0bc-44a6-89c1-8cca67f64f16" CvTextArea="423, 140, 135, 14" CvTextArgument="New Web Content" CvType="Text" DesignTimeRectangle="424, 137, 133, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='control-menu-level-1-heading mb-0 text-truncate' aaname='New Web Content' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New Web Content' /&gt;" Guid="1e9c11fb-dd1b-45bf-bca7-8af89fc14421" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NMouseScroll KeyModifiers="{x:Null}" DelayAfter="1" DelayBefore="1" Direction="Down" DisplayName="Mouse Scroll To tags" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,269" sap2010:WorkflowViewState.IdRef="NMouseScroll_10" InteractionMode="HardwareEvents" MovementUnits="10" Version="V4">
+                                <uix:NMouseScroll.SearchedElement>
+                                  <uix:SearchedElement>
+                                    <uix:SearchedElement.Target>
+                                      <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="241121df-eaf9-497b-a9ac-d806a4b3dcfe" ContentHash="bx2jr5mc6k-P0sSLFe83Mg" CvTextArea="1063, 409, 31, 16" CvTextArgument="Tags" CvType="Text" DesignTimeRectangle="1065, 405, 28, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='_com_liferay_journal_web_portlet_JournalPortlet_zomp___assetTagsSelector' tag='LABEL' /&gt;" Guid="effdd3e0-c9f4-4f28-9834-a86fe5ee82d4" InformativeScreenshot="a632d0c7f516fcdcad66bdfbb26c022a.png" Reference="6huVHFJPy0-LV-9hU_2J-g/5xtyGqR-e02f5HGXUiO11Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                            <uix:Target CVScreenId="241121df-eaf9-497b-a9ac-d806a4b3dcfe" CvTextArea="1064, 383, 103, 12" CvTextArgument="OTHER METADATA" CvType="Text" DesignTimeRectangle="1065, 374, 254, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Other Metadata' parentid='_com_liferay_journal_web_portlet_JournalPortlet_zomp___assetTagsSelector' tag='DIV' type='' class='border-0 mb-0 sheet-subtitle text-uppercase' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='OTHER METADATA' /&gt;" Guid="d9dc3a83-5abb-4727-8d9b-d3f5310873e8" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:SearchedElement.Target>
+                                    <uix:SearchedElement.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:SearchedElement.Timeout>
+                                  </uix:SearchedElement>
+                                </uix:NMouseScroll.SearchedElement>
+                              </uix:NMouseScroll>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click Select Tags" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="72ec104e-2819-42b4-b68f-7b8317304603" ContentHash="MuBl-tdxvUSy0-LcLi1MrA" CvElementArea="1254, 557, 66, 34" CvTextArea="1267, 567, 40, 13" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1255, 558, 64, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='Select Tags' tag='BUTTON' type='button' /&gt;" Guid="cd8f9fc1-3c3b-41ea-9457-95302bd6eedd" InformativeScreenshot="082a285f35753dab8b081ca8d0fc326c.png" Reference="6huVHFJPy0-LV-9hU_2J-g/jo0-USIh10ue1BvXVzHbUg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="72ec104e-2819-42b4-b68f-7b8317304603" CvTextArea="1063, 537, 31, 16" CvTextArgument="Tags" CvType="Text" DesignTimeRectangle="1065, 533, 28, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='_com_liferay_journal_web_portlet_JournalPortlet_zomp___assetTagsSelector' tag='LABEL' type='' class='' aaname='Tags' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tags' /&gt;" Guid="11b45d46-0f49-436f-aed9-c1121fe74bf5" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBefore="1" DisplayName="Type Into 'Tags'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,286" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Text="[TagSearchKey + &quot;[k(Enter)]&quot;]" Version="V4">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="820345d6-7a49-4e24-b9a9-d1b1b2a11b82" ContentHash="0iqKmtQkLkmHX8eS5r61mQ" CvElementArea="146, 216, 1137, 42" CvType="InputBox" DesignTimeRectangle="148, 217, 1087, 40" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='search' /&gt;" Guid="823fe1d9-d0d4-4e03-b92a-87adf849a516" InformativeScreenshot="4ef14e2bbbc2c6b649b75d4d54bed852.png" Reference="6huVHFJPy0-LV-9hU_2J-g/sL6nugebT0aJvSgekiaunQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="820345d6-7a49-4e24-b9a9-d1b1b2a11b82" CvTextArea="76, 165, 45, 22" CvTextArgument="Tags" CvType="Text" DesignTimeRectangle="78, 158, 1189, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='clay-modal-label-3' tag='H1' type='' class='modal-title' aaname='Tags' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Tags' /&gt;" Guid="c4d571d5-5155-48af-9c6f-d84de08b4061" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                              </uix:NTypeInto>
+                              <uix:NCheck Action="Check" DelayBefore="1" DisplayName="Check Tag" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,189" sap2010:WorkflowViewState.IdRef="NCheck_3" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NCheck.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" ContentHash="D2FkNEYH20mtYSULgUfaiw" CvElementArea="98, 473, 20, 19" CvType="CheckBox" DesignTimeRectangle="100, 474, 16, 16" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='custom-control-input ' aaname='Select' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="57cae2fe-2aea-4c63-82ac-41832f4362bb" InformativeScreenshot="104bb74cf9ebf2bdedf98e4d0920f015.png" Reference="6huVHFJPy0-LV-9hU_2J-g/ihgVK2wcRka6shmM5nsNTA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" CvTextArea="77, 344, 131, 17" CvTextArgument="Search Results" CvType="Text" DesignTimeRectangle="79, 341, 1224, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='H3' type='' class='' aaname='Search Results' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Search Results' /&gt;" Guid="2b2ed648-bc2f-46d2-9f48-87cebc127d9f" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NCheck.Target>
+                              </uix:NCheck>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="1" DisplayName="Click 'Done'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,225" sap2010:WorkflowViewState.IdRef="NClick_37" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" ContentHash="ADlW6Kpo1USjMATTb8bmlQ" CvElementArea="1232, 625, 74, 43" CvTextArea="1249, 639, 40, 14" CvTextArgument="Done" CvType="Button" DesignTimeRectangle="1233, 626, 71, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Done' tag='BUTTON' type='button' /&gt;" Guid="7b9f0cc3-dc28-48cd-835a-31ab017589ea" InformativeScreenshot="e2a84e5e45e89806ac8e3cc6f30a5bc1.png" Reference="6huVHFJPy0-LV-9hU_2J-g/0L-u0S50x0yvyQJDA0Wj-w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                        <uix:Target CVScreenId="abf614b3-2679-4a5a-b49d-46a7728a5af3" CvElementArea="1136, 625, 83, 42" CvTextArea="1152, 638, 49, 15" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1137, 626, 80, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Cancel' tag='BUTTON' type='button' class='btn btn-secondary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Cancel' /&gt;" Guid="4f5dbbd0-6646-41b3-9d94-dd9d66c1eca2" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,387" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                                <ui:CommentOut.Body>
+                                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click Publish Item" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_39" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="0e2fb0eb-704d-4d42-8ca4-21808ed95cca" ContentHash="jdPo8JXS00eozYGHI-x5XQ" CvElementArea="1221, 191, 75, 35" CvTextArea="1235, 202, 48, 13" CvTextArgument="Publish" CvType="Button" DesignTimeRectangle="1223, 193, 72, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_publishButton' tag='BUTTON' /&gt;" Guid="4e0fc884-1363-4f1e-907b-235a60b3ee77" InformativeScreenshot="985b7c222414c14349f7b4c351f921ff.png" Reference="6huVHFJPy0-LV-9hU_2J-g/q5AT75JZq0yPeHxJFlBrMw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                              <uix:Target CVScreenId="0e2fb0eb-704d-4d42-8ca4-21808ed95cca" CvElementArea="1092, 192, 111, 34" CvTextArea="1105, 202, 85, 13" CvTextArgument="Save as Draft" CvType="Button" DesignTimeRectangle="1093, 193, 109, 32" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_saveButton' tag='BUTTON' type='submit' class='btn btn-secondary mr-3' aaname='Save as Draft' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save as Draft' /&gt;" Guid="a7deba59-8afc-4a87-afd9-3186ff7be3ef" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </ui:CommentOut.Body>
+                              </ui:CommentOut>
+                              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="486,122" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,387" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                                <ui:CommentOut.Body>
+                                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Personal'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="191bf3f2-9e94-4311-bc86-6e2aafe375e2" ContentHash="wWBsl9j3eUi7xE4ZHinDrg" CvElementArea="82, 136, 20, 21" CvType="Icon" DesignTimeRectangle="85, 140, 14, 14" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='fehs____' tag='svg' /&gt;" Guid="bb5fe5c2-6f66-4209-bf17-340a0f9fc7af" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABeSURBVDhPYzAwtP9PDcyALkAuhht09tzN/5Mmz/9vZe35f9nyTWA+IVzX0IPdIJAB4RGpcDYhDFJH0CBk27DhUYNGDRqaBoHYhDBOg0CZ1tLKA66IEMaaaSnFVDMIAKIPwDqHt/f9AAAAAElFTkSuQmCC" InformativeScreenshot="65fe3c1bc213953419a565e01eeb27b0.png" Reference="pjbHHYga6EWNWdbrBJOTug/KsYXq0M7r0yYirH7YPYLdA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Personal - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="191bf3f2-9e94-4311-bc86-6e2aafe375e2" CvTextArea="114, 138, 67, 16" CvTextArgument="Personal" CvType="Text" DesignTimeRectangle="116, 137, 64, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='lfr-portal-tooltip h4 mb-0' aaname='Personal' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Personal' /&gt;" Guid="a437fdab-79ae-4109-846c-87f7e16454b0" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </ui:CommentOut.Body>
+                              </ui:CommentOut>
+                              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,387" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                                <ui:CommentOut.Body>
+                                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Content &amp; Data'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="8e7e5c4b-3b3a-45d1-9d7c-22cae598eff4" ContentHash="3nPlu7G8-0ifiPoVUkmW3A" CvElementArea="291, 328, 21, 24" CvType="ArrowButton" DesignTimeRectangle="295, 333, 14, 14" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='panel-manage-site_administration_content-link' tag='svg' /&gt;" Guid="c69a354a-ee23-4973-993b-e815232d6f0f" InformativeScreenshot="87a15948694336d7851bec36f24b472c.png" Reference="pjbHHYga6EWNWdbrBJOTug/CFxHApSnMkqSkkqF1zftdA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Personal - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="8e7e5c4b-3b3a-45d1-9d7c-22cae598eff4" CvElementArea="291, 328, 21, 24" CvTextArea="34, 332, 102, 13" CvTextArgument="Content &amp; Data" CvType="ArrowButton" DesignTimeRectangle="12, 317, 312, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='panel-manage-site_administration_content-link' tag='A' type='' class='collapse-icon collapse-icon-middle nav-link list-group-heading panel-header collapsed' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Content &amp;amp; Data  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Content &amp;amp; Data' /&gt;" Guid="91722728-d6e0-4902-a053-d6b0c8f28410" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </ui:CommentOut.Body>
+                              </ui:CommentOut>
+                              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,380" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                                <ui:CommentOut.Body>
+                                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Web Content'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6b80457-48c1-42ed-98c2-c3379616cdc3" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="6c0e453b-ed3f-426e-b80f-9e128ec85c5e" ContentHash="wuHHD9Hfi0eTPpGAs4Jy0Q" CvTextArea="51, 434, 85, 13" CvTextArgument="Web Content" CvType="Text" DesignTimeRectangle="36, 421, 265, 41" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_portlet_com_liferay_journal_web_portlet_JournalPortlet' tag='A' /&gt;" Guid="f987df76-9a44-4ef1-840e-4fda25e4afaa" InformativeScreenshot="d1b5af5d5d70084512b1c8438c3c76c5.png" Reference="pjbHHYga6EWNWdbrBJOTug/Er3tGesMXEe49l77Q226Lg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Personal - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CVScreenId="6c0e453b-ed3f-426e-b80f-9e128ec85c5e" CvTextArea="51, 393, 126, 13" CvTextArgument="Kaleo Forms Admin" CvType="Text" DesignTimeRectangle="36, 380, 265, 41" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_product_navigation_product_menu_web_portlet_ProductMenuPortlet_portlet_com_liferay_portal_workflow_kaleo_forms_web_portlet_KaleoFormsAdminPortlet' tag='A' type='' class='nav-link' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Kaleo Forms Admin  &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Kaleo Forms Admin' /&gt;" Guid="e1508dc3-7b8b-4162-8333-e83b4634cead" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NClick.Target>
+                                      <uix:NClick.VerifyOptions>
+                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                          <uix:VerifyExecutionOptions.Retry>
+                                            <InArgument x:TypeArguments="x:Boolean" />
+                                          </uix:VerifyExecutionOptions.Retry>
+                                          <uix:VerifyExecutionOptions.Timeout>
+                                            <InArgument x:TypeArguments="x:Double" />
+                                          </uix:VerifyExecutionOptions.Timeout>
+                                        </uix:VerifyExecutionOptions>
+                                      </uix:NClick.VerifyOptions>
+                                    </uix:NClick>
+                                  </Sequence>
+                                </ui:CommentOut.Body>
+                              </ui:CommentOut>
+                            </Sequence>
+                          </ActivityAction>
+                        </uix:NApplicationCard.Body>
+                        <uix:NApplicationCard.TargetApp>
+                          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="K8VjFTC0aUmvqnUIaI2Pxg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAc7SURBVFhHnZZ7bJPXGcb9TwesBQKFlhVInBs4cRx/cZI2kOBbaBKgEMp/07oRaZom7fLXpk6l3P6ZNG0aDoEQCBAHkq6jqLu10tQtsZ17WLuhoRFStM2UJM6lYKfQrpDv+H2m95zPjhNCSznST8/zntjvc94Tf7JNpkdcYbeWNuV11E15S/1T3tLLH1eWxKYqSzHpLcGUl31JcMpb7J+sLN7Lr53//sde4zWaeaKytJ5DjDCa8BRj0lOCSU8xMVw/gLvYP+7WzPP7PfJSE5f4OFQGuVVYMtBdTBNuB4272TtowlCux90OhcuBcafj0PzeX7r45BOe4rARZDR2SD8nwCDCQQzXziKKuIrUHntFeLzsEW9j0lNkH3c7wvND1ERFxKhAFWSEIOLUkjrmLMLYFk3BXtVffgienMMTEyg1MILGnKppZIsRlBq2RcNoggo7xirsNCpR9Ui5PTxeZln4EPw/j7iKwioopXkyTDWWB2Ct0EjWHGAEqiDpaUTWSkfKCxlSag8v+JSMOjVfMkRBqRMZ0xhBynNDWXNzNSFulhdKjFDc3DwfG93cZPPNCdfe3G1u+qFrNoRDywuTgXIaI2TqR9/F3bfaoUfGkFj02YegqXcgLu+EuFTMEGucddABySUHMXH++6ADGEj5PBS/uce/xV+L4coiNZVxXVI325SvLsfdC+3J0EiMEBqeQWhYx/Xx+Oxhxn8D8YEL+mARhEQjMaghfkkjMaCpekDW6hY0/+40xxsvgzn0M2/yqjiY9aNNNoxUbcb968My4O9hHd/3f4rSw9MoPWRweBq7fHcQvDZj3MgwxPsVEIN2DlQ6wJ61EGKwkMRAYQyXtTST9sbuOq19N4rad4M1tKtEhjI3N9mI9c5v22TjU8F7KDk0PcvBFG/QHLynDhFpU2EDNoOCFGWsNNObX2fS2mr9Wlst7G27SGuvpVd+UYUbZQX4qMxKzOjL1bIhT1d8MCZxGDrL9Jz9D8K6fE/86l4S/Vbo/fkQCxAfyPeb7G21Qfv5WtjP7zKoxTt7SnCjzIrwC1bcfff3stmOI5+g6EBsloMpmvBG/b2Wu8bn4Tzp/XkQc7CQ6Lcg3m+heF/eZVPhuV2xwnM7kcDWuhNbj23Dv5w2hJ/Pp/vXr2E4IqAdiC1A9CHEMBaLA/dGIfo3UJI+CRi9bwPi/blRk83/EmytEpLeqH/+g3KES/OIJwkMzcC+P7owB2Lz6igK90cRMD6Qoi8Xem8OBNOXC9FnqKyzyVTQsgMF/pdQ4N9BUluVvtC0DVcqrLJJ59B92PZHH4CDUjV1v3PIOEBvNkRfFoneLBJ92dB7syBS4APErC3bSbED1pbtMJR+/KqT9MgoxqJxFLx++ytxLSJAn16F6M2E3pMJ0Wsm0WuWtfIZXEdN+We3/yP/zDYotiP/7Hbpraxnt1FP6IKcpO7MHVhfvw3rvttKv4CqX02rp2DyIlRQOuk96RCSDIie9cRe71kfNFnO1PjzTm/DLDXyAJbTNcT+O+++Kpv97b8zyN93G3n7bht6S/rZena/Y+i+uv73N0HvXg+9ex1EzzpiNTwEa/dav8nSXFNnaa5JBjKybq4mS3M1K85dUY/i8c7PYHntFiz7bimdz75bON7xP/na6ZEW0rvXQvSsJdHzHOndzyGBSGjX2r0ms9+dlneqOrbxVDVSsbA2VxFT0rqHrn38b9n4r1fvw/vLGDa+dmsO3z79CS79R33wRqMfItqTD73rGwZrILrXUEJF97PSI5imvpY3nqyu33iyChsMpD9VRYl6w8kqKvHvodYrv5MBvIbGhDwMMxqd/TLi17T8aRNE1xroXc8mEayhZ6SKrtUkQqv9yW9DS1ONeUPTi2ByDU34FCinaSu521/B29few5BxI7xG7kzA/8+38a0//BSuM07oodWKLkNDq6QXXatI+tAqnn7uL6Pcxsr63BNbkSCnkfVFcGjOCQmUVhL/LanzuPjHXNJDT6tQqStJKIUIrSTWeNfKB38pm33utOwTleHsRtU4+3glco5XSuU9qbzXOLdO5Zutz5MIrSA9uAJ6aAWkBldAGF6E0kgE08Lzs5PL7HObsxu94UTDrGNeZB/zIuu4lyTsjXqh/Rt/eQYiuJz04DLSg8shQstJsAaXkUH4gaufv/gQWQ2esGza4EHmMQ8x7BNksh7zSpW+wYuftBVCDyyFHlymNLAUIvgUMexnAkvDCC7+4vDE4kNkHvWEM496YG5wU+ZRt1TpGzwwH1U+QUXTZtx472nogac4FHrgyTmIwJPhzx81PHWZfe7D5no3Ho4L5qMuOvNWFvTOJRCBr0v0wGLiWg8s4X1f8nl/nMW3ke5z+TN8LmTUuyj9iJPYp/ucsi5vLIPeudhgEfSORdADi2J6x5L6z//8GFM/bPFTsv7XW+rSjzhbM3yuYPoRZyz9iBMXLq6DCDwRjXd87XK8Y7F/pvOJuq8y8f8BmWZYCb9aOw0AAAAASUVORK5CYII=" InformativeScreenshot="bf8aee71862fdea1d26d2188d98298ab.jpg" Reference="6huVHFJPy0-LV-9hU_2J-g/tFNQHoyo-0i1bG0YWgmISg" Selector="&lt;html app='chrome.exe' url='http://10.0.20.90:9900/c/portal/login' /&gt;" Url="http://10.0.20.90:9900/c/portal/login" Version="V2" />
+                        </uix:NApplicationCard.TargetApp>
+                      </uix:NApplicationCard>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachRow.Body>
+              </ui:ForEachRow>
+              <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="590,141" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="We-Devices" WorkbookPath="D:\UIPath\WeDevices2.xlsx" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="9xL50O4c6UCMz76B1B4N-A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAaNJREFUOE+dk0tLw0AQx9tvo0nWJ1WUouhXEG2zqYoXBT0r6MGDDxCtyW6tttCDIILgC0VQFKU+oC0+oqh4sfbgyW9gvTgyC40mqbY48CNkdv7/zWxmPR53eGkla6GETYYIX0WobEyoEvPjmrPYFkGJNVLCTY3wz1AVh59gTiPsOiCHfU6dCFXRuzTCPpxCF4TnVZl12MQBmflwwVX8G4S/ByqNOstAI+zSVVQCjfC0EKvEaCrWcylQg1+Ou49jot8fh5WZU+iuicDmYkoUbcUyMDu4AzfJF7hOZgWbS+lvE8UYRYNlfBlqT8DJ+j301Ebg6vhZFJhnOXjMvEJs7BAWhvcF2Yc3GPDHxTpVeOLboC0Bye1H6PNFxY7d1XaD6MiBYCOagt76BZuBaAEFR2t3YJ7n4GLvCW7Pc0IwN7QrjDCPz+1YxmqBKmzME1R4838PkUp6A/4IL06Ys6AUGmEZaw7QqawpLEB4nlaE6y0DYSLrwbJMUCyxTpu4EGqFGKq7YmcicoSbVIqIvv8I8FJ5vo0qbDqk8DVEU/iUSvTWYtf5C5QzwbMLMlDBAAAAAElFTkSuQmCC" InformativeScreenshot="e15ad82b48c764239917511710ee66c5.jpg" Reference="6huVHFJPy0-LV-9hU_2J-g/iHTaKHjeOkOu95FwaIsfdw" Selector="&lt;html app='chrome.exe' title='Devices' /&gt;" Url="https://te.eg/wps/portal/te/Personal/Devices/Mobile-Phones" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

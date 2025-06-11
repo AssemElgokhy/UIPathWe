@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KFwbEeCPqUOkR60Luj61_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="te.eg/wps/portal/te/Personal" CVScreenId="c253d1e2-127d-417f-82d6-be8fbda9c840" CvTextArea="939, 190, 59, 15" CvTextArgument="Devices" CvType="Text" DesignTimeRectangle="918, 174, 102, 49" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Devices' class='nav__list__link' parentid='menuNavigation_personalMenuDevId' tag='A' /&gt;" Guid="af454b69-df3a-463c-b7cc-414c077851db" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Telecom Egypt Home' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c253d1e2-127d-417f-82d6-be8fbda9c840" CvTextArea="939, 190, 59, 15" CvTextArgument="Devices" CvType="Text" DesignTimeRectangle="939, 191, 60, 14" ElementType="Text" Guid="f4c49fb5-16e6-43c2-8cc9-a0d0c694b3a9" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a52ab91145932f0176692b3abec65f51.png" xmlns="">0QeSPyvrM-0qRpcNGavFhEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
