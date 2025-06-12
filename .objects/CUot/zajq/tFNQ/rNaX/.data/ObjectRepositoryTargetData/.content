@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="eE148F9WSEabY18la-hJxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="qAva_0KrKkWJ2BP4_E3XLQ" Reference="6huVHFJPy0-LV-9hU_2J-g/rNaXWIh-J0ym-PqXexxruQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="2130ff2b-cd6a-4bac-8bc2-c3e79e63bcca" CvTextArea="416, 530, 67, 16" CvTextArgument="Segment 1" CvType="Text" DesignTimeRectangle="389, 521, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Option99328851' tag='BUTTON' /&gt;" Guid="b5c7b29d-9e4f-4068-9c9e-75d0b89af74e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="2130ff2b-cd6a-4bac-8bc2-c3e79e63bcca" CvTextArea="416, 530, 67, 16" CvTextArgument="Segment 1" CvType="Text" DesignTimeRectangle="416, 530, 67, 16" ElementType="Button" Guid="b5c7b29d-9e4f-4068-9c9e-75d0b89af74e" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
           <Target CVScreenId="2130ff2b-cd6a-4bac-8bc2-c3e79e63bcca" CvTextArea="388, 384, 69, 18" CvTextArgument="Segment *" CvType="Text" DesignTimeRectangle="389, 382, 67, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' aaname='Segment' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segment' /&gt;" Guid="d5763812-5816-4636-b01a-b9b4208a8eb4" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="c84c7399db5612548c2e12f301512333.png" xmlns="">0lxyksU8DvkmI5MxM8O1dMw</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="37104fa85dab9bb4270735d92865bac9.png" xmlns="">0Yt2cgYDnik21-n2Hzu1-Ew</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

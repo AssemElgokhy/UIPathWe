@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="03-dr__GpkGv9jv6Dzj0aw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="e694b41f-08d2-490d-a311-c2d2048a81d2" CvElementArea="389, 497, 588, 42" CvType="InputBox" DesignTimeRectangle="389, 498, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset29880906$x0klC1PF$0#Field42807688$nj4h4epF$0$$en_US' aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary' aaname='Choose an Option' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="e1635967-b2c3-4c52-9d33-bc22646e5323" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e694b41f-08d2-490d-a311-c2d2048a81d2" CvTextArea="388, 475, 52, 18" CvTextArgument="Group *" CvType="Text" DesignTimeRectangle="389, 473, 50, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Group' class='ddm-label' parentid='_com_liferay_journal_web_portlet_JournalPortlet_dataEngineLayoutRenderer' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Group' /&gt;" Guid="1b7634e4-ac5c-4073-a725-175f1d0817c9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3e5d033492b7f6d062ff0da048a24f85.png" xmlns="">0cSduyk9XX0SD_pRtX-ii7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

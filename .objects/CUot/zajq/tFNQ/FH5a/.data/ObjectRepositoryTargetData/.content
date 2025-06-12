@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nUjLzaRPtUy0hM0SBS_VKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="c2a79af2-b26e-45ee-888e-4b64212fb5db" CvElementArea="153, 216, 1138, 41" CvType="InputBox" DesignTimeRectangle="1258, 229, 16, 16" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl parentid='_com_liferay_item_selector_web_portlet_ItemSelectorPortlet_fm_search' tag='svg' type='' class='lexicon-icon lexicon-icon-search' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0ae210f9-06fb-4f08-921a-796c5c5e62fb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c2a79af2-b26e-45ee-888e-4b64212fb5db" CvElementArea="110, 225, 25, 24" CvType="Icon" DesignTimeRectangle="115, 229, 16, 16" ElementType="Icon" FullSelectorArgument="&lt;webctrl id='modalIframe' tag='IFRAME' /&gt;&lt;webctrl tag='svg' /&gt;" Guid="59e23a4e-1add-427c-a977-142594556730" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADiSURBVDhPrZE9C4JAGID9v338hIjaaqm2jFwPGy03wynCrdmlwSGEJGk/Lu6FO+5Le0UfePG4Fx/k0WMD45kXfbGE0Tlho/GMZdnDXKHQhIREIBOTpnd1jUIKj8FJk4mJ41R/4w9SuFrvQbDZBlLEn2F4gb1/IGwyncP4PlEdGlJYlm9WVR9NWBQvVtdf2C+WO/nV/NyE9VNUoQmlFKaNTkIMaCHvxu9FR352tUQL1YZtLdFCjmjY1rKTEANaaDZsaokWuhq6WqKFHLOhq2UnIQZLmFxvIMzzp7lCYQn7MrjwB8kJuPhmJsw5AAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7e6b252004dda637ff81644f5153c91f.png" xmlns="">00NEDkqiecECCMftsfKDnyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="eBeQD-9t00eq1rmTsGu8WQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="bI9dp-GQ7EStFVC22oUnkw" Reference="6huVHFJPy0-LV-9hU_2J-g/kb0sN4Wia0KJ2npBPAgbmQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="32095015-0382-4aa7-b15d-50499b80d84d" CvTextArea="416, 369, 97, 13" CvTextArgument="Mobile Internet" CvType="Text" DesignTimeRectangle="389, 360, 240, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='Option99328851' tag='BUTTON' /&gt;" Guid="7f62f932-28d9-45fc-a166-4faa1d26a796" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="32095015-0382-4aa7-b15d-50499b80d84d" CvTextArea="416, 369, 97, 13" CvTextArgument="Mobile Internet" CvType="Text" DesignTimeRectangle="416, 369, 97, 13" ElementType="Button" Guid="7f62f932-28d9-45fc-a166-4faa1d26a796" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
           <Target CVScreenId="32095015-0382-4aa7-b15d-50499b80d84d" CvElementArea="387, 497, 591, 42" CvType="InputBox" DesignTimeRectangle="389, 498, 589, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-labelledby='_com_liferay_journal_web_portlet_JournalPortlet_ddm$$Fieldset29880906$x0klC1PF$0#Field42807688$nj4h4epF$0$$en_US' aria-role='combobox' tag='BUTTON' type='button' class='form-control form-control-select form-control-select-secondary show' aaname='Choose an Option' matching:aria-labelledby='fuzzy' fuzzylevel:aria-labelledby='0.0' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose an Option' /&gt;" Guid="c59b2652-e8e1-43b4-9851-593ac44d8506" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="92246652a2ae48d5a2fee217eebe12da.png" xmlns="">0FA4Lr9xSSkCKNIIubyn9HA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="fac17d448b3d6fe9d4d0faeb0454ade0.png" xmlns="">0kfzbwZveLEabLNzTiI6dEg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

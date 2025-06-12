@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="gHNjjMic3EuoB_WJ50LwYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="IUfxe-t0-kCPDqAqqCrB1Q" Reference="6huVHFJPy0-LV-9hU_2J-g/z6cjN5wJrkCxbpBsOwwiKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="5a7455c5-0eac-4cab-b9bd-9a019ec03407" CvTextArea="216, 278, 39, 13" CvTextArgument="Order" CvType="Text" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' /&gt;" Guid="5c25c84e-5232-4e03-a0d2-a9a01c8d9fae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/group/guest/~/control_panel/manage" CVScreenId="5a7455c5-0eac-4cab-b9bd-9a019ec03407" CvTextArea="216, 278, 39, 13" CvTextArgument="Order" CvType="Text" DesignTimeRectangle="217, 274, 37, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Order' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Order' /&gt;" Guid="5c25c84e-5232-4e03-a0d2-a9a01c8d9fae" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
           <Target CVScreenId="5a7455c5-0eac-4cab-b9bd-9a019ec03407" CvTextArea="108, 278, 34, 13" CvTextArgument="Filter" CvType="Text" DesignTimeRectangle="110, 274, 31, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='_com_liferay_journal_web_portlet_JournalPortlet_selectDocumentLibrary_iframe_' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl aaname='Filter' class='navbar-text-truncate' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Filter' /&gt;" Guid="1521e653-2b50-4ba6-b381-a1d5522ac905" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="bde9210ae6e6d6f6cfb7b4bf4f7a3fd0.png" xmlns="">0EqewsPoTakOLYVXfJwDqxQ</imageRef>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-18" Y="-11" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="b6b485d39a6d2897aadd64df83205227.png" xmlns="">0aoiGkoTQmEGHfhu2rmAtdw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

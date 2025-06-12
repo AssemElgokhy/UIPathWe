@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type Into device name",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "1L7Jp8mgCUSIp_Ey_z0oVw",
+  "Reference": "6huVHFJPy0-LV-9hU_2J-g/1L7Jp8mgCUSIp_Ey_z0oVw",
+  "ParentRef": "6huVHFJPy0-LV-9hU_2J-g/tFNQHoyo-0i1bG0YWgmISg",
+  "Created": "2025-06-12T09:08:43.2056141Z",
+  "Updated": "2025-06-12T09:08:43.2056141Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
