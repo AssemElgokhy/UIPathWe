@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Kf4N1YQH0k-xqryGNsIFNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="B4DGaEotDk6DXh7SubO-qg" Reference="6huVHFJPy0-LV-9hU_2J-g/aOpK9cY7Fkm6K-zR4_tF7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.0.20.90/personal" CVScreenId="781a8819-1467-4c7e-879c-eba62c44d669" CvTextArea="392, 516, 41, 16" CvTextArgument="Image" CvType="Text" DesignTimeRectangle="393, 512, 88, 21" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Image' parentid='clay-id-23' tag='LABEL' /&gt;" Guid="e2d573de-21bc-4ba8-9b1f-ddbebcdb94b4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - TelecomEgypt' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="d922df960e5bdde05db260b5c63d3170.png" xmlns="">06h8lHC9Za0a52bb7Wvp23g</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="10.19.245.230/group/guest/~/control_panel/manage" CVScreenId="51e97869-3ff8-4afc-a748-41bd25e34950" CvTextArea="72, 515, 41, 16" CvTextArgument="Image" CvType="Text" DesignTimeRectangle="73, 511, 88, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Image' parentid='clay-id-33' tag='LABEL' type='' class='ddm-label ddm-repeatable' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Image' /&gt;" Guid="7e810d89-3a5c-4d90-a188-e61c121914a7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='New Web Content - Telecom Egypt' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="51e97869-3ff8-4afc-a748-41bd25e34950" CvTextArea="68, 404, 28, 13" CvTextArgument="Icon" CvType="Text" DesignTimeRectangle="69, 400, 27, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Icon' class='ddm-label' parentid='clay-id-33' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Icon' /&gt;" Guid="8ca7dd64-1054-4936-8e95-5a83261fb4f7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="954b4f8501945caeec30c1f952e46c9c.png" xmlns="">0ClG6BdWlxUq6HgbVRrEZpA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
   </ObjectRepositoryTargetData.Data>
